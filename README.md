@@ -14,3 +14,5 @@ https://processing.org/download/
 - コード補完 Ctrl-spaceにチェックを入れる
 
 設定したら、一度再起動して下さい。
+
+<img src="image-processin/py.processing-consol.png"
