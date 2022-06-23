@@ -15,4 +15,4 @@ https://processing.org/download/
 
 設定したら、一度再起動して下さい。
 
-<img src="image-processin/py.processing-consol.png" width="50px">
+<img src="image-processin/py.processing-consol.png" width="200px">
