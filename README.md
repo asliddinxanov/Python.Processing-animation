@@ -6,7 +6,7 @@ Processingはサイトからダウンロードしてきてインストールす�
 以下サイトからダウンロードしてください。寄付の必要はありません。「No Donation」にチェックを入れてください。
 https://processing.org/download/
 
-<img src="image-processin/py.processing-consol.png" width="600px">
+<img src="image-processing/py.processing-consol.png" width="600px">
 
 まずは初期設定です。Macならメニューバーの&#34;Processing&#34;のところをクリックして環境設定を選択してください。Windowsならファイル＞設定と進みます。
 以下を設定してください。
@@ -34,4 +34,8 @@ def draw():
     ellipse(x,y,d,d); #円（楕円）を描くメソッド
 ```
 このプログラムを実行すると以下のような画像が表示されます。
+<img src="image-processing/run-1.png" width="600px">
 
+## 新規作成、保存、デバッグ
+
+プログラムの新規作成、保存は、メニューの「ファイル」から項目を選んで実行します。もしくは、ショートカットキーでも行うことができます。  ファイルの保存場所ですが、書類フォルダの中に、Processing というフォルダがあります。例えば、`test1` という名前でプログラムを保存する場合、Processing フォルダの中に、`test1` フォルダができ、その中に `test1.pde` というプログラムファイルが保存されます。
