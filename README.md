@@ -6,7 +6,7 @@ Processingはサイトからダウンロードしてきてインストールす�
 以下サイトからダウンロードしてください。寄付の必要はありません。「No Donation」にチェックを入れてください。
 https://processing.org/download/
 
-<img src="image-processin/py.processing-consol.png" width="600px">
+<img src="image-processing/py.processing-consol.png" width="600px">
 
 まずは初期設定です。Macならメニューバーの&#34;Processing&#34;のところをクリックして環境設定を選択してください。Windowsならファイル＞設定と進みます。
 以下を設定してください。
@@ -34,4 +34,4 @@ def draw():
     ellipse(x,y,d,d); #円（楕円）を描くメソッド
 ```
 このプログラムを実行すると以下のような画像が表示されます。
-
+<img src="image-processing/run-1.png" width="600px">
