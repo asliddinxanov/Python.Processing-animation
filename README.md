@@ -72,4 +72,4 @@ def setup():
   rect(20,30,60,50)
   ellipse(0,0,90,90)
 ```
-<img src="image-processing/run-4/png" width="400px">
+<img src="image-processing/run-4.png" width="400px">
