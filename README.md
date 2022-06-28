@@ -43,4 +43,5 @@ def draw():
 <img src="image-processing/im-1.png" width="400px">
 
 また、デバッグですが、下の「エラー」のタブをクリックすると、エラーメッセージとエラーの発生して いる行を確認することができます。
+<img src="image-processing/error.png" width="600px">
 
