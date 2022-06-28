@@ -65,10 +65,11 @@ def setup():
   rect(20,30,60,50)
 ```
 <img src="image-processing/run-3.png" width="400px">
+
 ```python=
 def setup():
   size(120,100)
   rect(20,30,60,50)
   ellipse(0,0,90,90)
 ```
-<img scr="image-pocessing/run-4/png" width="400px">
+<img src="image-pocessing/run-4/png" width="400px">
