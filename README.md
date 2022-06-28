@@ -55,3 +55,20 @@ def setup():
   line(30,40,200,80)
 ```
 <img src="image-processing/run-2.png" width="400px">
+
+## 実行の順序
+Processing は、先頭の命令から順に実行されます。したがって、重なり合う図形を描く場合、プログラム の実行順序は重要です。例えば、これらの二つのプログラムはどうなるでしょうか。先に書かれた命令から 実行されます。
+```python=
+def setup():
+  size(120,100)
+  ellipse(0,0,90,90)
+  rect(20,30,60,50)
+```
+<img src="image-processing/run-3.png" width="400px">
+```python=
+ def setup():
+  size(120,100)
+  rect(20,30,60,50)
+  ellipse(0,0,90,90)
+```
+<img scr="image-pocessing/run-4/png" width="400px">
