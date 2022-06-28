@@ -66,7 +66,7 @@ def setup():
 ```
 <img src="image-processing/run-3.png" width="400px">
 ```python=
- def setup():
+def setup():
   size(120,100)
   rect(20,30,60,50)
   ellipse(0,0,90,90)
