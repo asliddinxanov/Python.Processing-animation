@@ -41,7 +41,7 @@ def draw():
 
 プログラムの新規作成、保存は、メニューの「ファイル」から項目を選んで実行します。もしくは、ショートカットキーでも行うことができます。  ファイルの保存場所ですが、書類フォルダの中に、Processing というフォルダがあります。例えば、`test1` という名前でプログラムを保存する場合、Processing フォルダの中に、`test1` フォルダができ、その中に `test1.pde` というプログラムファイルが保存されます。
 
-<img src="image-processing/im-1.png" width="400px">
+  <img src="image-processing/im-1.png" width="400px">
 
 また、デバッグですが、下の「エラー」のタブをクリックすると、エラーメッセージとエラーの発生して いる行を確認することができます。
 <img src="image-processing/error.png" width="550px">
