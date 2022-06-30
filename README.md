@@ -84,7 +84,7 @@ def setup():
   size(240,120)
   background(0)
   fill(200)
-  elippse(70,60,80,80)
+  ellipse(70,60,80,80)
   fill(100)
   ellipse(10,60,80,80)
 ```
