@@ -65,6 +65,7 @@ def setup():
   rect(20,30,60,50)
 ```
 <img src="image-processing/run-3.png" width="400px">
+
 ```python=
 def setup():
   size(120,100)
