@@ -128,4 +128,4 @@ def setup():
   fill (0, 0, 255, 160)
   ellipse (210, 130, 90, 90)
   ```
-  <img src="image-processing/.png" width="400px">
+  <img src="image-processing/RGB.png" width="400px">
