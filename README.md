@@ -104,7 +104,7 @@ def setup():
   fill(100,20,80)
   rect(350,50,50,50)
 ```
-<img src="image-processing/.png" width="400px">
+<img src="image-processing/run-5.png" width="400px">
 
 ## 色の数値の確認
 
