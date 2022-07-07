@@ -128,4 +128,19 @@ def setup():
   fill (0, 0, 255, 160)
   ellipse (210, 130, 90, 90)
   ```
-  <img src="image-processing/.png" width="400px">
+ <img src="image-processing/RGB.png" width="400px">
+  
+  ## 変数
+  Processingは、他のプログラミング言語のように、変数を使うことができます。これにより、繰り返しの処理が簡単に表せるようになります。また、変数に対して足し算などの演算をすることもできます。この以下のプログラムを実行すると、3つの円が描かれます。これらの円は、y 軸に関して同じ高さ、等間隔、また、同じ大きさです。これらの同じ値を変数にすると、円を描く命令で毎回同じ数字を書く必要がなく、また、数値の変更も簡単になります。
+```python=
+size(400, 200)
+#変数
+x = 80
+y = 100
+d = 120
+s = 80
+ellipse(x, y, s, s)
+ellipse(x+d, y, s, s)
+ellipse(x+d∗2, y, s, s)
+```
+ <img src="image-processing/run-6.png" width="400px">
