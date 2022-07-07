@@ -143,4 +143,14 @@ ellipse(x, y, s, s)
 ellipse(x+d, y, s, s)
 ellipse(x+d∗2, y, s, s)
 ```
- <img src="image-processing/run-6.png" width="400px">
+
+## 特別な変数
+Processingには、いくつかの特別な変数があります。例えば、ウィンドウの幅と高さを表す、widthと heightです。これらの変数は宣言する必要はなく、ウィンドウのサイズを指定する `size` 関数の変数が自動的に代入されます。これらの値を使って、以下のようにウィンドウの対角線と中心に円を描くプログラムを考えます。まず、size関数でウィンドウを作ります。すると、`width`に 400、`height`に 200 が代入されます。これらの変数を使い、対角線や円の中心を表すことができます。
+
+```python=
+size(400,200);
+line(0,0,width,height)
+line(width,0,0,height)
+ellipse(width/2, height/2, 100, 100)
+```
+ <img src="image-processing/run-7.png" width="400px">
