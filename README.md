@@ -164,4 +164,4 @@ def setup():
 def draw():
   print(frameCount)
 ```
-<img scr="image-processing/run-8.png" width="400px>
+<img src="image-processing/run-8.png" width="400px>
