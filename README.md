@@ -154,3 +154,7 @@ line(width,0,0,height)
 ellipse(width/2, height/2, 100, 100)
 ```
  <img src="image-processing/run-7.png" width="400px">
+ 
+## 入力
+
+
