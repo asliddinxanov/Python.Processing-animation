@@ -167,6 +167,9 @@ def draw():
 ```
 <img src="image-processing/run-8.png" width="400px">
 
+## 繰り返し処理
+
+
 ```pyhton=
 size(400,200)
 background(0)
