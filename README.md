@@ -169,6 +169,7 @@ def draw():
 
 ## 繰り返し処理
 
+変数と `for`を使って繰り返しの処理ができます。変数 `width`と `height`の変数と、繰り返しの処理を使ったプログラムの例を二つ示します。1つ目のプログラムは、黒い背景を作って、二重の `for`ループで白い円とグレーの線を繰り返し書いています。これを実行すると、以下のようなグラフィックが出来上がります。
 
 ```pyhton=
 size(400,200)
@@ -181,3 +182,4 @@ for x in range(20, width-20, 10):
         stroke(100)
         line(x, y, width/2, height/2)
 ```
+<img src="image-processing/run-9.png" width="400px">
