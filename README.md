@@ -166,3 +166,15 @@ def draw():
   print(frameCount)
 ```
 <img src="image-processing/run-8.png" width="400px">
+
+```pyhton=
+size(400,200)
+background(0)
+
+for x in range(20, width-20, 10):
+    for y in range(20, height-20, 10):
+        fill(255,0,0)
+        ellipse(x, y, 4, 4)
+        stroke(100)
+        line(x, y, width/2, height/2)
+```
