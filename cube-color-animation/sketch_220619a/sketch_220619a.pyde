@@ -10,7 +10,6 @@ def setup():
     background(20,25,33)
     colorMode(HSB, 360, 100, 100)
     
-
 def draw():
     global xaxis, yaxis, changex, changey, c, frame 
     
