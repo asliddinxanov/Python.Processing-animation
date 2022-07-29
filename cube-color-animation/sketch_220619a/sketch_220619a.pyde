@@ -6,20 +6,20 @@ c = 0
 frame = 0
 def setup():
     #fullScreen()
-    size(1000,500)
+    size(1700,1000)
     background(20,25,33)
     colorMode(HSB, 360, 100, 100)
     
 def draw():
     global xaxis, yaxis, changex, changey, c, frame 
     
-    stroke(c,80,100)
+    stroke(c,85,100)
     fill(c, 85, 70)
     c += 1
     frame += 1
     c = c % 360
     square(xaxis,yaxis, 30)
-    saveFrame("frames/frame-{}.png".format(frame))
+    #saveFrame("frames/frame-{}.png".format(frame))
     xaxis += changex
     yaxis += changey
     if xaxis + 30  == width or xaxis == 0:
