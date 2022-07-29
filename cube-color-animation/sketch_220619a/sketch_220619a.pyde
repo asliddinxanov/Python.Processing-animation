@@ -8,7 +8,7 @@ def setup():
     #fullScreen()
     size(1000,500)
     background(20,25,33)
-    colorMode(RGB, 360, 100, 100)
+    colorMode(HSB, 360, 100, 100)
     
 def draw():
     global xaxis, yaxis, changex, changey, c, frame 
@@ -19,6 +19,7 @@ def draw():
     frame += 1
     c = c % 360
     square(xaxis,yaxis, 30)
+    #for save image
     #saveFrame("frames/frame-{}.png".format(frame))
     xaxis += changex
     yaxis += changey
