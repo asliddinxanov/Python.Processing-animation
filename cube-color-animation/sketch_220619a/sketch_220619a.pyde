@@ -6,9 +6,9 @@ c = 0
 frame = 0
 def setup():
     #fullScreen()
-    size(1700,1000)
+    size(1000,500)
     background(20,25,33)
-    colorMode(HSB, 360, 100, 100)
+    colorMode(RGB, 360, 100, 100)
     
 def draw():
     global xaxis, yaxis, changex, changey, c, frame 
