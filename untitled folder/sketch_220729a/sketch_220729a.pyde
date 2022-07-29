@@ -6,3 +6,5 @@ def setup():
     frameRate(10)
     colorMode(RGB)
     #noStroke()
+    
+    rect(50,50,50,50)
