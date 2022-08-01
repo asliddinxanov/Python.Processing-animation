@@ -1,9 +1,9 @@
 #2D grid animation2D grid animation2D grid animation
-
 pix_size = 50
+x_y = 25
 ang = 0
 def setup():
-    size(500,500)
+    size(800,500)
     rectMode(CENTER)
     frameRate(10)
     colorMode(HSB)
