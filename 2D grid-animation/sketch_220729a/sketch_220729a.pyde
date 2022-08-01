@@ -12,4 +12,6 @@ def draw():
     background(0)
     for x in range(height/pix_size):
         for y in range(width/pix_size):
-            rect(x,y, 50,50)
+            with pushMatrix():
+                translate(x_y + y * pix_size,
+                          x_y + x * pix_size)
