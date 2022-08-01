@@ -19,3 +19,5 @@ def draw():
                     rotate(ang / 3)
                 else:
                     rotate(ang / 2)
+                rect(0,0,75,75)
+                ang += 0.001
