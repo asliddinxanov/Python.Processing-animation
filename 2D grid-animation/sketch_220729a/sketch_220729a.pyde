@@ -1,14 +1,16 @@
 #2D grid animation2D grid animation2D grid animation
+
 pix_size = 50
 ang = 0
 def setup():
     size(500,500)
     rectMode(CENTER)
     frameRate(10)
-    colorMode(RGB)
+    colorMode(HSB)
     #noStroke()
     
 def draw():
+    global ang
     background(0)
     for x in range(height/pix_size):
         for y in range(width/pix_size):
@@ -19,5 +21,6 @@ def draw():
                     rotate(ang / 3)
                 else:
                     rotate(ang / 2)
+                fill((ang * (x + 1) * (y + 1)) % 255, 255, 225, 140)
                 rect(0,0,75,75)
                 ang += 0.001
