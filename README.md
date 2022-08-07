@@ -192,8 +192,9 @@ for x in range(20, width-20, 10):
 
 ピクセルアートはゲームとの結びつきが強いとはいえ、ピクセルアートはもはやゲーム文化の内部にとどまるものではありません。懐しさを楽しむ人、新しいグラフィック・スタイルとして楽しむ人、純粋にかわいいという点で楽しむ人、といったように楽しみ方は人それぞれだろうが、いずれにしろピクセルアートを描いたり鑑賞したりすることは、それ自体でひとつのカルチャーとして成り立っています。今回はprocessin上で`Pixelart`(ピクセルアート)画像を描いてみましょう。
 
-<img src="pixel_art/pokeball.png" width="400px">
-[Pixelart](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixel_art/art_pixel.pyde)
+<img src="pixel_art/pokeball.png" width="300px">
+このポケモンボールの画像をを書いてみましょう
+[Pixel_art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixel_art/art_pixel.pyde)
 
 ## 例題
 
