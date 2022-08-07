@@ -194,7 +194,7 @@ for x in range(20, width-20, 10):
 
 <img src="pixel_art/pokeball.png" width="300px">
 このポケモンボールの画像をを書いてみましょう
-[Pixel_art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixel_art/art_pixel.pyde)
+[Pixel_art_code]　(https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixel_art/art_pixel.pyde)
 
 ## 例題
 
