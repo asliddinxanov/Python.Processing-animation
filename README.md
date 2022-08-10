@@ -197,9 +197,10 @@ for x in range(20, width-20, 10):
 
 [Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixel_art/art_pixel.pyde)
 
-今まで勉強してきた関数を使って様々なアニメーションを書いてみましょう。
+## 今まで勉強してきた関数を使って様々なアニメーションを書いてみましょう。
 
 ## 例題１
+
 ### Cube Color Animation
 [color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
 
