@@ -205,3 +205,6 @@ for x in range(20, width-20, 10):
 
 ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
 
+実行結果
+
+<img src=" " width="300px">
