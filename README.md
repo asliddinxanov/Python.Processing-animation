@@ -190,8 +190,23 @@ for x in range(20, width-20, 10):
 
 ## PixelArt
 
-ピクセルアートはゲームとの結びつきが強いとはいえ、ピクセルアートはもはやゲーム文化の内部にとどまるものではありません。懐しさを楽しむ人、新しいグラフィック・スタイルとして楽しむ人、純粋にかわいいという点で楽しむ人、といったように楽しみ方は人それぞれだろうが、いずれにしろピクセルアートを描いたり鑑賞したりすることは、それ自体でひとつのカルチャーとして成り立っています。今回はprocessin上でPixelart(ピクセルアート)画像を描いてみましょう。
+ピクセルアートはゲームとの結びつきが強いとはいえ、ピクセルアートはもはやゲーム文化の内部にとどまるものではありません。懐しさを楽しむ人、新しいグラフィック・スタイルとして楽しむ人、純粋にかわいいという点で楽しむ人、といったように楽しみ方は人それぞれだろうが、いずれにしろピクセルアートを描いたり鑑賞したりすることは、それ自体でひとつのカルチャーとして成り立っています。今回はprocessin上で`Pixelart`(ピクセルアート)画像を描いてみましょう。
 
-## 例題
+<img src="pixel_art/pokeball.png" width="300px">
+このポケモンボールの画像をを書いてみましょう
 
-今まで勉強してきた関数を使って様々なアニメーションを書いてみましょう。
+[Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixel_art/art_pixel.pyde)
+
+## 今まで勉強してきた関数を使って様々なアニメーションを書いてみましょう。
+
+## 例題1
+
+### Cube Color Animation_01
+
+ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
+
+実行結果
+
+<img src="cube-color-animation/sketch_220619a/frames/frame-2692.png" width="600px">
+
+## 例題2
