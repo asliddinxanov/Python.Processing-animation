@@ -199,7 +199,7 @@ for x in range(20, width-20, 10):
 
 ## 今まで勉強してきた関数を使って様々なアニメーションを書いてみましょう。
 
-## 例題１
+## 例題1
 
 ### Cube Color Animation_01
 
@@ -209,4 +209,4 @@ for x in range(20, width-20, 10):
 
 <img src="cube-color-animation/sketch_220619a/frames/frame-2692.png" width="600px">
 
-### 例題２
+## 例題2
