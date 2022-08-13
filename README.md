@@ -217,4 +217,4 @@ for x in range(20, width-20, 10):
 
 実行結果
 
-<img src="cube-color-animation/sketch_220619a/frames/frame-2692.png" width="600px">
+<img src="2D%20grid-animation/2D-anim.png" width="600px">
