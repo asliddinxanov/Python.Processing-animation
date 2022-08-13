@@ -216,3 +216,5 @@ for x in range(20, width-20, 10):
 ソースコード：[2D grid animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/2D%20grid-animation/sketch_220729a/sketch_220729a.pyde)
 
 実行結果
+
+<img src="cube-color-animation/sketch_220619a/frames/frame-2692.png" width="600px">
