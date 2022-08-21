@@ -201,6 +201,14 @@ for x in range(20, width-20, 10):
 
 ## 例題1
 
+## Array
+
+ソースコード：[array](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array/anim-1.pyde)
+
+実効結果
+
+<img src="array/array/run_anim-1.png" width="600px">
+
 ### Cube Color Animation_01
 
 ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
