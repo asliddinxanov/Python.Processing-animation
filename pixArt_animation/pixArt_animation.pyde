@@ -65,7 +65,7 @@ def draw():
                 rect(x+z*12, y+z*14, z, z)
                 rect(x+z*4, y+z*15, z*8, z)
             
-    # draw pixel(red)
+                # draw pixel(red)
                 fill(255,0,0)
                 stroke(255,0,0)
                 rect(x+z*5, y+z, z*6, z)
@@ -76,7 +76,7 @@ def draw():
                 rect(x+z, y+z*5, z*5, z)
                 rect(x+z*10, y+z*5, z*5, z)
                 
-    # drew pixel(white)
+                # drew pixel(white)
                 fill(255)
                 stroke(255)
                 rect(x+z*7, y+z*5, z*2, z)
@@ -90,7 +90,7 @@ def draw():
                 rect(x+z, y+z*10, z*3, z)
                 rect(x+z*12, y+z*10, z*3, z)
                 
-            # drew pixel(yellow)
+                # drew pixel(yellow)
                 fill(245,225,155)
                 stroke(245,225,155)
                 rect(x+z*4, y+z*11, z*2, z)
