@@ -201,6 +201,34 @@ for x in range(20, width-20, 10):
 
 ## 例題1
 
+### Array
+
+ソースコード：[array](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array/anim-1.pyde)
+
+実効結果
+
+<img src="array/array/run_anim-1.png" width="500px">
+
+## 例題2
+
+### Mouse Vector
+
+ソースコード：[Mouse Vector](https://github.com/asliddinxanov/py.Processing-animations/blob/main/mouse%20vector/mouse%20vector/kadai2_2.pyde)
+
+実行結果
+
+<img src="mouse vector/mouse vector/Untitled.gif" width="500px">
+
+## 例題3
+
+### Array Animation
+
+ソースコード：[array_animation_pixart](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixArt_animation/pixArt_animation.pyde)
+
+実行結果
+
+<img src="" width="">
+
 ### Cube Color Animation_01
 
 ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
@@ -209,7 +237,6 @@ for x in range(20, width-20, 10):
 
 <img src="cube-color-animation/sketch_220619a/cube-ran.png" width="600px">
 
-## 例題2
 
 ### 2D Grid Animation
 
@@ -217,6 +244,4 @@ for x in range(20, width-20, 10):
 
 実行結果
 
-<img src="2D%20grid-animation/2D-anim.png" width="600px">
-
-## 例題3
+<img src="2D%20grid-animation/2D-anim.png" width="620px">
