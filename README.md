@@ -211,7 +211,11 @@ for x in range(20, width-20, 10):
 
 ### array_animation
 
-ソースコード：[array_animation]()
+ソースコード：[array_animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array_animation/kadai1_2.pyde)
+
+実行結果
+
+<img src="array/array_animation/kadai1_2(gif).gif" width="600px">
 
 ## 例題2
 
