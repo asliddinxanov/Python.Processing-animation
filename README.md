@@ -215,7 +215,7 @@ for x in range(20, width-20, 10):
 
 実行結果
 
-<img src="">
+<img src="array/array_animation/kadai1_2(gif).gif" width="600px">
 
 ## 例題2
 
