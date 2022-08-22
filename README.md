@@ -227,7 +227,7 @@ for x in range(20, width-20, 10):
 
 実行結果
 
-<img src="" width="">
+<img src="pixArt_animation/Untitled.gif" width="600px">
 
 ### Cube Color Animation_01
 
