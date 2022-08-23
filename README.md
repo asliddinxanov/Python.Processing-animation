@@ -225,7 +225,7 @@ for x in range(20, width-20, 10):
 
 実行結果
 
-<img src="mouse vector/mouse vector/Untitled.gif" width="500px">
+<img src="mouse vector/mouse vector/Untitled.gif" width="600px">
 
 ## 例題3
 
