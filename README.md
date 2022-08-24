@@ -182,7 +182,7 @@ for x in range(20, width-20, 10):
         stroke(100)
         line(x, y, width/2, height/2)
 ```
-<img src="image-processing/run-9.png" width="400px">
+<img src="image-processing/run-9.png" width="600px">
 
 ## 位置
 
