@@ -243,11 +243,15 @@ for x in range(20, width-20, 10):
 
 こちらのアニメーションは　`OOP` (オブジェクト指向プログラミング)を使っています。`Poke_main.pyde`, `PokePix.py` です。
 
-Poke_mainのソースコード：(PokeBall) [https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/Poke_main.pyde]
+Poke_mainのソースコード：[Poke_main.pyde](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/Poke_main.pyde)
+
+PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/PokePix.py)
 
 実行結果
 
 <img src="PokeBall(click mouse)/Untitled.gif" width="620px">
+
+
 
 ### Cube Color Animation_01
 
