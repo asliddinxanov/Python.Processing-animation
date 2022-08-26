@@ -241,11 +241,13 @@ for x in range(20, width-20, 10):
 
 ### Click Mouse Animation (PokeBall)
 
-ソースコード：(PokeBall)[https://github.com/asliddinxanov/py.Processing-animations/blob/main/Pixel_art(image)/art_pixel.pyde]
+こちらのアニメーションは　`OOP` (オブジェクト指向プログラミング)を使っています。`Poke_main.pyde`, `PokePix.py` です。
+
+Poke_mainのソースコード：(PokeBall)[https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/Poke_main.pyde]
 
 実行結果
 
-<img scr="PokeBall(click mouse)/Untitled.gif" width="600px">
+<img src="PokeBall(click mouse)/Untitled.gif" width="600px">
 
 ### Cube Color Animation_01
 
