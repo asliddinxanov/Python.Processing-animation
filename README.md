@@ -241,7 +241,11 @@ for x in range(20, width-20, 10):
 
 ### Click Mouse Animation (PokeBall)
 
-ソースコード：(PokeBall)[]
+ソースコード：(PokeBall)[https://github.com/asliddinxanov/py.Processing-animations/blob/main/Pixel_art(image)/art_pixel.pyde]
+
+実行結果
+
+<img scr="PokeBall(click mouse)/Untitled.gif" width="600px">
 
 ### Cube Color Animation_01
 
