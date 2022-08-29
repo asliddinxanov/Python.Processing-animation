@@ -251,7 +251,12 @@ PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.
 
 <img src="PokeBall(click mouse)/Untitled.gif" width="620px">
 
+## 例題5
 
+## 跳ね返るアニメーション (PockeBall)
+物体をななめ方向へ移動させ、画面の端へ来ると跳ね返るアニメーションになります。
+
+ソースコード：[]()
 
 ### Cube Color Animation_01
 
