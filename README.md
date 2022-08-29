@@ -253,10 +253,11 @@ PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.
 
 ## 例題5
 
-## 跳ね返るアニメーション (PockeBall)
+## Bounce(PockeBall)
 物体をななめ方向へ移動させ、画面の端へ来ると跳ね返るアニメーションになります。
 
-ソースコード：[]()
+ソースコード：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
+
 
 ### Cube Color Animation_01
 
