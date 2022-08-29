@@ -258,6 +258,9 @@ PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.
 
 ソースコード：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
 
+実行結果
+
+<img src="Bounce(PokeBall)/Untitled.gif" width="620px">
 
 ### Cube Color Animation_01
 
