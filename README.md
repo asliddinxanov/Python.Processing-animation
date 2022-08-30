@@ -195,7 +195,7 @@ for x in range(20, width-20, 10):
 <img src="pixel_art/pokeball.png" width="300px">
 このポケモンボールの画像をを書いてみましょう
 
-[Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixel_art/art_pixel.pyde)
+[Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Pixel_art(image)/art_pixel.pyde)
 
 ## 今まで勉強してきた関数を使って様々なアニメーションを書いてみましょう。
 
