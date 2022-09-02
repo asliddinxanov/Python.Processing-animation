@@ -1,6 +1,7 @@
 # py.Processing-animations
 Animations with Processing Python Mode
 
+
 ## 最初に
 Processingはサイトからダウンロードしてきてインストールするだけで、プログラミング環境が整います。
 以下サイトからダウンロードしてください。寄付の必要はありません。「No Donation」にチェックを入れてください。
@@ -192,10 +193,10 @@ for x in range(20, width-20, 10):
 
 ピクセルアートはゲームとの結びつきが強いとはいえ、ピクセルアートはもはやゲーム文化の内部にとどまるものではありません。懐しさを楽しむ人、新しいグラフィック・スタイルとして楽しむ人、純粋にかわいいという点で楽しむ人、といったように楽しみ方は人それぞれだろうが、いずれにしろピクセルアートを描いたり鑑賞したりすることは、それ自体でひとつのカルチャーとして成り立っています。今回はprocessin上で`Pixelart`(ピクセルアート)画像を描いてみましょう。
 
-<img src="pixel_art/pokeball.png" width="300px">
+<img src="Pixel_art(image)/pokeball.png" width="300px">
 このポケモンボールの画像をを書いてみましょう
 
-[Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixel_art/art_pixel.pyde)
+[Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Pixel_art(image)/art_pixel.pyde)
 
 ## 今まで勉強してきた関数を使って様々なアニメーションを書いてみましょう。
 
@@ -253,10 +254,19 @@ PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.
 
 ## 例題5
 
-## 跳ね返るアニメーション (PockeBall)
-物体をななめ方向へ移動させ、画面の端へ来ると跳ね返るアニメーションになります。
+## Bounce(PockeBall)
+物体をななめ方向へ移動させ、画面の端へ来ると跳ね返るアニメーション。
 
-ソースコード：[]()
+ソースコード：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
+
+実行結果
+
+<img src="Bounce(PokeBall)/Untitled.gif" width="620px">
+
+## 例題6
+例題5で作成したアニメーションに、跳ね返る瞬間に画面の色が変わるアニメーション。
+
+ソースコード：[Bounce2]()
 
 ### Cube Color Animation_01
 
