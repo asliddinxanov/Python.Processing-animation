@@ -255,13 +255,18 @@ PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.
 ## 例題5
 
 ## Bounce(PockeBall)
-物体をななめ方向へ移動させ、画面の端へ来ると跳ね返るアニメーションになります。
+物体をななめ方向へ移動させ、画面の端へ来ると跳ね返るアニメーション。
 
 ソースコード：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
 
 実行結果
 
 <img src="Bounce(PokeBall)/Untitled.gif" width="620px">
+
+## 例題6
+例題5で作成したアニメーションに、跳ね返る瞬間に画面の色が変わるアニメーション。
+
+ソースコード：[Bounce2]()
 
 ### Cube Color Animation_01
 
