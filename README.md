@@ -292,6 +292,10 @@ def draw():
 
 ソースコード：[Bounce2](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce2/sketch_220611c/sketch_220611c.pyde)
 
+実行結果
+
+<img src="Bounce2/Untitled.gif" width="620px">
+
 ### Cube Color Animation_01
 
 ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
