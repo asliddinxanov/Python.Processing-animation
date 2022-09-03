@@ -266,7 +266,35 @@ PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.
 ## 例題6
 例題5で作成したアニメーションに、跳ね返る瞬間に画面の色が変わるアニメーション。
 
-ソースコード：[Bounce2]()
+例題5に似ているようなアニメーションで、以下のコードを追加します。
+```python=
+r = 0
+g = 0
+b = 0
+
+xdi = 0
+ydi = 0
+
+def draw():
+  background(r, g, b)
+  if (x < z) or (width - z*16 < x):
+  xdi *= -1
+  r = random(255)
+  g = random(255)
+  b = random(255)
+  
+  if (y < z) or (height - z*16 < y):
+  ydi *= -1
+  r = random(255)
+  g = random(255)
+  b = random(255)
+```
+
+ソースコード：[Bounce2](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce2/sketch_220611c/sketch_220611c.pyde)
+
+実行結果
+
+<img src="Bounce2/Untitled.gif" width="620px">
 
 ### Cube Color Animation_01
 
