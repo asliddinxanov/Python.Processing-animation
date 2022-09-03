@@ -272,9 +272,22 @@ r = 0
 g = 0
 b = 0
 
+xdi = 0
+ydi = 0
+
 def draw():
   background(r, g, b)
+  if (x < z) or (width - z*16 < x):
+  xdi *= -1
+  r = random(255)
+  g = random(255)
+  b = random(255)
   
+  if (y < z) or (height - z*16 < y):
+  ydi *= -1
+  r = random(255)
+  g = random(255)
+  b = random(255)
 ```
 
 ソースコード：[Bounce2](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce2/sketch_220611c/sketch_220611c.pyde)
