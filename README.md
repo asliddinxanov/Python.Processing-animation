@@ -264,8 +264,9 @@ PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.
 <img src="Bounce(PokeBall)/Untitled.gif" width="620px">
 
 ## 例題6
-例題5で作成したアニメーションに、跳ね返る瞬間に画面の色が変わるアニメーション。
 
+### Bounce2
+物体をななめ方向へ移動させ、画面の端へ来ると跳ね返る瞬間に画面の色が変わるアニメーション。
 例題5に似ているようなアニメーションで、以下のコードを追加します。
 ```python=
 r = 0
