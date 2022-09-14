@@ -297,6 +297,10 @@ def draw():
 
 <img src="Bounce2/Untitled.gif" width="620px">
 
+### 例題7
+
+
+
 ### Cube Color Animation_01
 
 ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
