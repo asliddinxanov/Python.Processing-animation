@@ -297,8 +297,9 @@ def draw():
 
 <img src="Bounce2/Untitled.gif" width="620px">
 
-### 例題7
+## 例題7
 
+###PixArt(method "keyPressed")
 
 
 ### Cube Color Animation_01
