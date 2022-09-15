@@ -1,19 +1,7 @@
 # py.Processing-animations
 Animations with Processing Python Mode
 
-<kbd>[<img title="English (Pirate)" alt="English (Pirate)" src="https://firstcontributions.github.io/assets/Readme/pirate.png" width="22">](translations/README.en-pirate.md)</kbd>
-<kbd>[<img title="اُاردو" alt="اردو" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/pk.svg" width="22">](translations/README.ur.md)</kbd>
-<kbd>[<img title="Polski" alt="Polski" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/pl.svg" width="22">](translations/README.pl.md)</kbd>
-<kbd>[<img title="Português (Portugal)" alt="Português (Portugal)" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/pt.svg" width="22">](translations/README.pt-pt.md)</kbd>
-<kbd>[<img title="Русский язык" alt="Русский язык" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/ru.svg" width="22">](translations/README.ru.md)</kbd>
-<kbd>[<img title="عربى" alt="عربى" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/sa.svg" width="22">](translations/README.ar.md)</kbd>
-<kbd>[<img title="Svenska" alt="Svenska" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/se.svg" width="22">](translations/README.se.md)</kbd>
-<kbd>[<img title="Slovenčina" alt="Slovenčina" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/sk.svg" width="22">](translations/README.slk.md)</kbd>
-<kbd>[<img title="Slovenščina" alt="Slovenščina" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/si.svg" width="22">](translations/README.sl.md)</kbd>
-<kbd>[<img title="ภาษาไทย" alt="ภาษาไทย" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/th.svg" width="22">](translations/README.th.md)</kbd>
-<kbd>[<img title="Türkçe" alt="Türkçe" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/tr.svg" width="22">](translations/README.tr.md)</kbd>
-<kbd>[<img title="中文(Traditional)" alt="中文(Traditional)" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/tw.svg" width="22">](translations/README.cht.md)</kbd>
-<kbd>[<img title="Українська" alt="Українська" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/ua.svg" width="22">](translations/README.ua.md)</kbd>
+
 
 ## 最初に
 Processingはサイトからダウンロードしてきてインストールするだけで、プログラミング環境が整います。
