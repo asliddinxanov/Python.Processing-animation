@@ -301,6 +301,19 @@ def draw():
 
 ###PixArt(method "keyPressed")
 
+ソースコード：[keyPressed](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PressKey/sketch_220612d/sketch_220612d.pyde)
+
+```Python=
+if keyPressed:
+  if key == "d":
+    x += 5
+  elif key == "a":
+    x -= 5
+  elif key == "s":
+    y += 5
+  elif key == "w":
+    y -= 5
+```
 
 ### Cube Color Animation_01
 
