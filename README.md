@@ -299,7 +299,7 @@ def draw():
 
 ## 例題7
 
-###PixArt(method "keyPressed")
+### PixArt(method "keyPressed")
 
 ソースコード：[keyPressed](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PressKey/sketch_220612d/sketch_220612d.pyde)
 
