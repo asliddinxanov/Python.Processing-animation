@@ -314,7 +314,9 @@ if keyPressed:
   elif key == "w":
     y -= 5
 ```
+実行結果
 
+<img src="PressKey/sketch.gif" width="620px">
 ### Cube Color Animation_01
 
 ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
