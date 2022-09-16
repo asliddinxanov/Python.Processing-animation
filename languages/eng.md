@@ -2,9 +2,9 @@
 Animations with Processing Python Mode
 
 
-## 最初に
-Processingはサイトからダウンロードしてきてインストールするだけで、プログラミング環境が整います。
-以下サイトからダウンロードしてください。寄付の必要はありません。「No Donation」にチェックを入れてください。
+## First Contributions
+Processing can be downloaded from the site and simply installed to create a programming environment.
+Please download it from the site below. No donation is required. Check the box (No Donation).
 https://processing.org/download/
 
 <img src="image-processing/py.processing-consol.png" width="550px">
