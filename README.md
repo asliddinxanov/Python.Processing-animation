@@ -2,6 +2,7 @@
 Animations with Processing Python Mode
 
 
+
 ## 最初に
 Processingはサイトからダウンロードしてきてインストールするだけで、プログラミング環境が整います。
 以下サイトからダウンロードしてください。寄付の必要はありません。「No Donation」にチェックを入れてください。
@@ -297,10 +298,26 @@ def draw():
 
 <img src="Bounce2/Untitled.gif" width="620px">
 
-### 例題7
+## 例題7
 
+### PixArt(method "keyPressed")
 
+ソースコード：[keyPressed](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PressKey/sketch_220612d/sketch_220612d.pyde)
 
+```Python=
+if keyPressed:
+  if key == "d":
+    x += 5
+  elif key == "a":
+    x -= 5
+  elif key == "s":
+    y += 5
+  elif key == "w":
+    y -= 5
+```
+実行結果
+
+<img src="PressKey/sketch.gif" width="620px">
 ### Cube Color Animation_01
 
 ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
