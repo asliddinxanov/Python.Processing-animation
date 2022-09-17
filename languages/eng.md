@@ -9,9 +9,6 @@ https://processing.org/download/
 
 <img src="image-processing/py.processing-consol.png" width="550px">
 
-まずは初期設定です。Macならメニューバーの&#34;Processing&#34;のところをクリックして環境設定を選択してください。Windowsならファイル＞設定と進みます。
-以下を設定してください。
-
 The initial setup:
 For Mac: click on &#34;Processing&#34; in the menu bar and select Preferences.
 
