@@ -4,17 +4,24 @@ Animations with Processing Python Mode
 
 ## First Contributions
 Processing can be downloaded from the site and simply installed to create a programming environment.
-Please download it from the site below. No donation is required. Check the box (No Donation).
+Please download it from the site below. No donation is required. Please check the box (No Donation).
 https://processing.org/download/
 
 <img src="image-processing/py.processing-consol.png" width="550px">
 
 まずは初期設定です。Macならメニューバーの&#34;Processing&#34;のところをクリックして環境設定を選択してください。Windowsならファイル＞設定と進みます。
 以下を設定してください。
-- 言語を必要な言語に（日本語）にする
-- エディタとコンソールのフォントをMacなら&#34;Osaka&#34;、Windowsなら&#34;Ms Gothic&#34;にする
-- 複雑なテキスト入力を有効にするにチェックを入れる
-- コード補完 Ctrl-spaceにチェックを入れる
+
+The initial setup:
+For Mac: click on &#34;Processing&#34; in the menu bar and select Preferences.
+
+For Windows: go to File > Preferences.
+Set up the following:
+- Set the language
+- Set editor and console fonts to &#34;Osaka&#34; for Mac or &#34;Ms Gothic&#34; for Windows
+- Check Enable complex text input
+- Check Code completion Ctrl-space
+
 
 設定したら、一度再起動して下さい。
 
