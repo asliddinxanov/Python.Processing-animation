@@ -96,7 +96,7 @@ def setup():
 ```
 ## RGB
 
-RGB カラーは、`赤(Red)`、`緑(Green)`、`青(Blue)`の 3つの数値で色を指定します。それぞれの数値は、0から 255の値をとり、グレースケールと同様に、値が小さいほど暗い色を表します。このプログラムは、4つの異なる色の円を描くプログラムです。
+RGB colors are specified by three numbers: `Red`, `Green`, and `Blue`. Each number has a value from 0 to 255, and as with grayscale, the smaller the value, the darker the color. This program draws four different colored circles.
 ```python=
 def setup():
   size(450,150)
