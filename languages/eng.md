@@ -80,10 +80,10 @@ def setup():
 ```
 <img src="image-processing/run-4.png" width="400px">
 
-## 色 (Color)
+## Color
 
-Processing では、図形や背景に色をつけることができます。設定できる色は二種類あり、グレースケールと、RGBで指定する色です。まず、グレースケールの設定について説明します。グレーの色は `0`から `255`の値で表します。値が小さいほど暗く、値が大きいほど明るい色を表しています。この数値は、背景や図形の塗り潰しの関数の変数に書きます。
-例えば、240かける 120のウィンドウを作り、background 関数で背景の色を指定します。ここでは、真っ黒を表す 0としています。 次に、図形の塗り潰しの色を `fill`関数で指定します。明るいグレーの色として、200としました。その次に円を描く関数を書いていますが、直前の色の指定が反映されるので、明るいグレーの円が描かれます。次にまた、fill 関数で暗いグレーとして 100を指定します。すると、次に描かれる円は、暗いグレーに塗り潰されています。試しに以下のプログラムを書いてみてください。
+Processing is, you can add color to shapes and backgrounds. There are two types of color that can be set: grayscale and RGB. First, we explain the grayscale setting. Gray color is represented by a value from `0` to `255`. Smaller values represent darker colors, and larger values represent lighter color. These values are written to variables in the background and shape fill functions.
+For example, let's create a window that is 120 by 240 and specify the background color with the background function. In this case, the value is set to 0, which represents pitch black. Next, specify the fill color of the shape with the `fill` function. We set it to 200, which is a light gray color. Next, we write a function to draw a circle, which reflects the previous color specification, so a light gray circle is drawn. Next, we again specify 100 as the dark gray color in the fill function. Then, the next circle drawn will be filled with dark gray. Try writing the following program.
 
 ```python=
 def setup():
