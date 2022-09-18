@@ -37,21 +37,21 @@ def draw():
     d = 300 #variable representing the diameter of the circle, assigned 300
     ellipse(x,y,d,d); #method to draw a circle (ellipse)
 ```
-このプログラムを実行すると以下のような画像が表示されます。
+When you run this program, will see the image.
 
 <img src="image-processing/run-1.png" width="550px">
 
-## 新規作成、保存、デバッグ
+## New, Save, Debug
 
-プログラムの新規作成、保存は、メニューの「ファイル」から項目を選んで実行します。もしくは、ショートカットキーでも行うことができます。  ファイルの保存場所ですが、書類フォルダの中に、Processing というフォルダがあります。例えば、`test1` という名前でプログラムを保存する場合、Processing フォルダの中に、`test1` フォルダができ、その中に `test1.pde` というプログラムファイルが保存されます。
+To create a new program or save a program, select an item from the menu "File" and execute it. Alternatively, you can use the shortcut keys.  As for where to save the file, there is a folder called `Processing` in the Documents folder. For example, if you save a program named `test1`, a folder named `test1` will be created in the Processing folder, and the program file `test1.pde` will be saved there.
 
 <img src="image-processing/im-1.png" width="400px">
 
-また、デバッグですが、下の「エラー」のタブをクリックすると、エラーメッセージとエラーの発生している行を確認することができます。
+Also, debugging, you can see the error message and the line where the error is occurring by clicking on the "Errors" tab below.
 
 <img src="image-processing/error.png" width="550px">
 
-## 線 (Line)
+## Line
 
 線の書き方です。line 関数を使います。変数は 4つあり、はじめの 2つは、線の端の座標、次の 2つは、 線のもう一方の端の座標を書きます。例えば、このプログラムを実行すると以下のようになります。端の座標は、(30, 40) と (200, 80)です。
 ```python=
