@@ -53,7 +53,7 @@ Also, debugging, you can see the error message and the line where the error is o
 
 ## Line
 
-線の書き方です。line 関数を使います。変数は 4つあり、はじめの 2つは、線の端の座標、次の 2つは、 線のもう一方の端の座標を書きます。例えば、このプログラムを実行すると以下のようになります。端の座標は、(30, 40) と (200, 80)です。
+The line function is used to draw a line. The first two variables are the coordinates of the end of the line, and the next two are the coordinates of the other end of the line. For example, the following is the result of executing this program. The end coordinates are (30, 40) and (200, 80).
 ```python=
 def setup():
   size(240,120)
@@ -61,8 +61,9 @@ def setup():
 ```
 <img src="image-processing/run-2.png" width="400px">
 
-## 実行の順序
-Processing は、先頭の命令から順に実行されます。したがって、重なり合う図形を描く場合、プログラム の実行順序は重要です。例えば、これらの二つのプログラムはどうなるでしょうか。先に書かれた命令から 実行されます。
+## Execution order
+Processing executes instructions in order, starting with the first instruction. Therefore, when drawing overlapping figures, the order in which the programs are executed is important. For example, what happens to these two programs? The first instruction is executed first.
+
 ```python=
 def setup():
   size(120,100)
