@@ -112,9 +112,9 @@ def setup():
 ```
 <img src="image-processing/run-5.png" width="400px">
 
-## 色の数値の確認
+## Check color values
 
-指定したい色が、どのような数値になるのか知りたいとき、カラーセレクターを使うと便利です。Processing のメニューの、「Tools」から、「color selector」を選択すると、以下の図のような画面が出てきます。自分の好きな色をクリックすると、その色に対応する RGBの値がわかります。
+When you want to know the value of the color you want to specify, it is convenient to use the color selector. Click on your favorite color to see the RGB value corresponding to that color.
 
 <img src="image-processing/selectColor.png" width="400px">
 
