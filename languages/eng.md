@@ -120,7 +120,7 @@ When you want to know the value of the color you want to specify, it is convenie
 
 ## Transparency
 
-色の設定では、透明度も追加することができます。色を表す数値の後に、透明度を表す数値を追加します。値は 0から 255で、値が小さいほど透明、値が大きいほど不透明であることを表します。グレースケールの場合、色を表す数値と透明度を表す数値の、2つの数値で指定します。また、`RGB`のカラーの場合は、色を表す 3つの数値と透明度を表す数値の、全部で 4つの数値で指定します。このプログラムの例を見てみましょう。3つの円を描くプログラムですが、実行結果は以下のようになります。3つの円それぞれに色と透明度を指定しました。半透明なので、重なっているところの色が混ざっています。
+In the color settings, you can also add transparency. After the number representing the color, add a number representing the transparency. Values range from 0 to 255, with smaller values indicating transparency and larger values opaqueness. In the case of grayscale, the color and transparency are specified by two numbers, one for the color and one for the transparency. In the case of `RGB` color, there are three values for the color and four values for the transparency. Let's look at an example of this program, which draws three circles, and the result looks like this: Each of the three circles has a color and a transparency value specified. Since they are semi-transparent, the colors of the overlapping areas are mixed.
 
 ```python=
 def setup():
@@ -136,8 +136,10 @@ def setup():
   ```
  <img src="image-processing/RGB.png" width="400px">
   
-  ## 変数
-  Processingは、他のプログラミング言語のように、変数を使うことができます。これにより、繰り返しの処理が簡単に表せるようになります。また、変数に対して足し算などの演算をすることもできます。この以下のプログラムを実行すると、3つの円が描かれます。これらの円は、y 軸に関して同じ高さ、等間隔、また、同じ大きさです。これらの同じ値を変数にすると、円を描く命令で毎回同じ数字を書く必要がなく、また、数値の変更も簡単になります。
+  ## Variables
+
+  Processing is, like other programming languages, allows the use of variables. This makes it easy to represent repetitive processes. You can also perform operations such as addition on variables. The following program will draw three circles. These circles are the same height, equal distance, and the same size with respect to the y-axis. By making these same values variables, it is not necessary to write the same numbers each time in the instructions for drawing the circles.
+
 ```python=
 size(400, 200)
 #変数
