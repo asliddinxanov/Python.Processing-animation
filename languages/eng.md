@@ -112,7 +112,7 @@ def setup():
 ```
 <img src="image-processing/run-5.png" width="400px">
 
-## Check color values
+## Checking color values
 
 When you want to know the value of the color you want to specify, it is convenient to use the color selector. Click on your favorite color to see the RGB value corresponding to that color.
 
@@ -120,15 +120,15 @@ When you want to know the value of the color you want to specify, it is convenie
 
 ## Transparency
 
-In the color settings, you can also add transparency. After the number representing the color, add a number representing the transparency. Values range from 0 to 255, with smaller values indicating transparency and larger values opaqueness. In the case of grayscale, the color and transparency are specified by two numbers, one for the color and one for the transparency. In the case of `RGB` color, there are three values for the color and four values for the transparency. Let's look at an example of this program, which draws three circles, and the result looks like this: Each of the three circles has a color and a transparency value specified. Since they are semi-transparent, the colors of the overlapping areas are mixed.
+Color settings, you can also add transparency. After the number representing the color, add a number representing the transparency. Values range from 0 to 255, with smaller values indicating transparency and larger values opaqueness. In the case of grayscale, the color and transparency are specified by two numbers, one for the color and one for the transparency. In the case of `RGB` color, there are three values for the color and four values for the transparency. Let's look at an example of this program, which draws three circles, and the result looks like this: Each of the three circles has a color and a transparency value specified. Since they are semi-transparent, the colors of the overlapping areas are mixed.
 
 ```python=
 def setup():
   size(400,200)
-  noStroke ()                 #輪郭線を消す
-  background (200, 226 , 225) #背景の色を変更する
-  fill (255, 0, 0, 160)       #図形の色と透明度を指定する
-  ellipse (150, 110, 90,90)   #円を描く
+  noStroke ()                 #remove outlines
+  background (200, 226 , 225) #change background color
+  fill (255, 0, 0, 160)       #specify color and transparency of a shape
+  ellipse (150, 110, 90,90)   #drive a circle
   fill (0, 255, 0, 160)
   ellipse(200, 60, 90, 90)
   fill (0, 0, 255, 160)
