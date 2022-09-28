@@ -193,28 +193,29 @@ for x in range(20, width-20, 10):
 ```
 <img src="image-processing/run-9.png" width="600px">
 
-## 位置
+## Position
 
-先ほどのプログラムは、xの値がどんどん大きくなるので、途中から円は画面の外へ出て行ってしまいます。画面の中で表示し続けるには、物体の位置をウィンドウに収まるように調整する必要があります。例えば、先ほどのプログラムに、次に示すプログラムのように条件分岐を追加します。x の値がウィンドウの横幅を超えたら、左端に xの値を戻すという命令です。そうすると、出て行った円は再び左から現れるようになります。
+In the previous program, the circle goes out of the screen in the middle of the program because the value of x keeps getting larger and larger. To keep it on the screen, the position of the object must be adjusted so that it fits in the window. For example, to the previous program, add a conditional branch as shown in the following program: If the value of x exceeds the width of the window, the instruction is to return the value of x to the left edge. The outgoing circle will then reappear from the left.
 
 ## PixelArt
 
-ピクセルアートはゲームとの結びつきが強いとはいえ、ピクセルアートはもはやゲーム文化の内部にとどまるものではありません。懐しさを楽しむ人、新しいグラフィック・スタイルとして楽しむ人、純粋にかわいいという点で楽しむ人、といったように楽しみ方は人それぞれだろうが、いずれにしろピクセルアートを描いたり鑑賞したりすることは、それ自体でひとつのカルチャーとして成り立っています。今回はprocessin上で`Pixelart`(ピクセルアート)画像を描いてみましょう。
+Although pixel art has strong ties to gaming, pixel art is no longer confined to the inner workings of gaming culture. People may enjoy it in different ways: some may enjoy it for its nostalgia, others for its new graphic style, and still others for its pure cuteness, but in any case, drawing and viewing pixel art is a culture in and of itself. This time, let's try drawing `Pixelart` images on processin.
 
 <img src="Pixel_art(image)/pokeball.png" width="300px">
-このポケモンボールの画像をを書いてみましょう
+
+Let's write this Pokeball image
 
 [Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Pixel_art(image)/art_pixel.pyde)
 
-## 今まで勉強してきた関数を使って様々なアニメーションを書いてみましょう。
+## Let's write various animations using the functions we have studied so far.
 
-## 例題1
+## example 1
 
 ### Array
 
 ソースコード：[array](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array/anim-1.pyde)
 
-実効結果
+Result
 
 <img src="array/array/run_anim-1.png" width="500px">
 
@@ -222,7 +223,7 @@ for x in range(20, width-20, 10):
 
 ソースコード：[array_animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array_animation/kadai1_2.pyde)
 
-実行結果
+Result
 
 <img src="array/array_animation/kadai1_2(gif).gif" width="600px">
 
@@ -232,7 +233,7 @@ for x in range(20, width-20, 10):
 
 ソースコード：[Mouse Vector](https://github.com/asliddinxanov/py.Processing-animations/blob/main/mouse%20vector/mouse%20vector/kadai2_2.pyde)
 
-実行結果
+Result
 
 <img src="mouse vector/mouse vector/Untitled.gif" width="600px">
 
@@ -242,7 +243,7 @@ for x in range(20, width-20, 10):
 
 ソースコード：[array_animation_pixart](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixArt_animation/pixArt_animation.pyde)
 
-実行結果
+Result
 
 <img src="pixArt_animation/Untitled.gif" width="600px">
 
@@ -256,7 +257,7 @@ Poke_mainのソースコード：[Poke_main.pyde](https://github.com/asliddinxan
 
 PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/PokePix.py)
 
-実行結果
+Result
 
 <img src="PokeBall(click mouse)/Untitled.gif" width="620px">
 
@@ -267,7 +268,7 @@ PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.
 
 ソースコード：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
 
-実行結果
+Result
 
 <img src="Bounce(PokeBall)/Untitled.gif" width="620px">
 
@@ -301,7 +302,7 @@ def draw():
 
 ソースコード：[Bounce2](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce2/sketch_220611c/sketch_220611c.pyde)
 
-実行結果
+Result
 
 <img src="Bounce2/Untitled.gif" width="620px">
 
@@ -313,7 +314,7 @@ def draw():
 
 ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
 
-実行結果
+Result
 
 <img src="cube-color-animation/sketch_220619a/cube-ran.png" width="600px">
 
@@ -322,6 +323,6 @@ def draw():
 
 ソースコード：[2D grid animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/2D%20grid-animation/sketch_220729a/sketch_220729a.pyde)
 
-実行結果
+Result
 
 <img src="2D%20grid-animation/2D-anim.png" width="620px">
