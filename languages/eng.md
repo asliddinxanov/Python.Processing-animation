@@ -152,8 +152,9 @@ ellipse(x+d, y, s, s)
 ellipse(x+d∗2, y, s, s)
 ```
 
-## 特別な変数
-Processingには、いくつかの特別な変数があります。例えば、ウィンドウの幅と高さを表す、widthと heightです。これらの変数は宣言する必要はなく、ウィンドウのサイズを指定する `size` 関数の変数が自動的に代入されます。これらの値を使って、以下のようにウィンドウの対角線と中心に円を描くプログラムを考えます。まず、size関数でウィンドウを作ります。すると、`width`に 400、`height`に 200 が代入されます。これらの変数を使い、対角線や円の中心を表すことができます。
+## 特Another variable
+
+Processing has several special variables. For example, width and height, which represent the width and height of the window. You do not need to declare these variables; they are automatically assigned to the variables of the `size` function, which specifies the size of the window. Using these values, consider the following program that draws a circle around the diagonal and center of the window. First, create a window with the `size` function. Then, 400 is assigned to `width` and 200 to `height`. Using these variables, we can represent the diagonals and the center of the circle.
 
 ```python=
 size(400,200)
@@ -163,9 +164,10 @@ ellipse(width/2, height/2, 100, 100)
 ```
  <img src="image-processing/run-7.png" width="400px">
  
-## 入力 `setup()` と `draw()`
+## input `setup()` and `draw()`
 
-今まで説明してきたプログラムは、上から順に実行し、最後まで実行すると終わるプログラムでした。マウスのクリックなど、外からの入力によって動きが変わるアニメーションを作りたい場合、そのプログラムはずっと動いている必要があります。そこで、`setup` 関数と`draw` 関数を使います。setup関数は、一度だけ実行される関数で、draw関数は、ストップボタンが押されるまで繰り返し実行される関数です。これらの関数が実行される様子を確認してみましょう。 print関数は、画面の下にあるコンソールに文字列や変数の値を表示する関数です。draw関数の方のフレームカウントという変数は、draw関数が上から下まで実行されることをフレームというのですが、そのフレームの数が格納されている特別な変数です。ちなみに、何も指定しない場合、1秒間に 60フレームで、この数は変更することができます。では、実行ボタンを押して、すぐ止めるボタンを押しましょう。そして、コンソールの横のスクロールバーで上まで戻ると、setup 関数は 一度だけしか表示されていないのに対して、draw 関数は何度も実行されているのが確認できます。
+The programs we have described so far were programs that executed from the top to the bottom and ended when they were executed to the end. If you want to create an animation that changes its motion based on external input, such as a mouse click, the program needs to keep running. So we use the `setup` function and the `draw` function: the setup function is a function that is executed only once, and the draw function is a function that is executed repeatedly until the stop button is pressed. Let's see how these functions are executed. The print function prints a string or the value of a variable to the console at the bottom of the screen, and the variable called frame count in the draw function is a special variable that stores the number of frames in which the draw function is executed from top to bottom, which is called a frame. By the way, if you do not specify anything, it is 60 frames per second, and this number can be changed. Now, press the Run button, and then press the Stop button immediately. And if you go back up to the top with the scroll bar next to the console, you will see that the setup function is only shown once, while the draw function is executed many times.
+
 ```python=
 def setup():
   print("setup")
@@ -174,9 +176,9 @@ def draw():
 ```
 <img src="image-processing/run-8.png" width="400px">
 
-## 繰り返し処理
+## Iterative process
 
-変数と `for`を使って繰り返しの処理ができます。変数 `width`と `height`の変数と、繰り返しの処理を使ったプログラムの例を二つ示します。1つ目のプログラムは、黒い背景を作って、二重の `for`ループで白い円とグレーの線を繰り返し書いています。これを実行すると、以下のようなグラフィックが出来上がります。
+You can use variables and `for` to iterate. Here are two examples of programs that use the variables `width` and `height` and the repetitive process: the first program creates a black background and repeatedly writes white circles and gray lines in a double `for` loop. When executed, this produces the following graphic.
 
 ```pyhton=
 size(400,200)
