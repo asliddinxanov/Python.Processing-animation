@@ -227,7 +227,7 @@ Result
 
 <img src="array/array_animation/kadai1_2(gif).gif" width="600px">
 
-## 例題2
+## example 2
 
 ### Mouse Vector
 
@@ -237,7 +237,7 @@ Result
 
 <img src="mouse vector/mouse vector/Untitled.gif" width="600px">
 
-## 例題3
+## example 3
 
 ### Array Animation
 
@@ -247,24 +247,24 @@ Result
 
 <img src="pixArt_animation/Untitled.gif" width="600px">
 
-## 例題4
+## example 4
 
 ### Click Mouse Animation (PokeBall)
 
-こちらのアニメーションは　`OOP` (オブジェクト指向プログラミング)を使っています。`Poke_main.pyde`, `PokePix.py` です。
+This animation uses `OOP` (Object Oriented Programming). `Poke_main.pyde`, `PokePix.py`.
 
-Poke_mainのソースコード：[Poke_main.pyde](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/Poke_main.pyde)
+Poke_main：[Poke_main.pyde](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/Poke_main.pyde)
 
-PokePixのソースコード：[PokePix.py](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/PokePix.py)
+PokePix：[PokePix.py](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/PokePix.py)
 
 Result
 
 <img src="PokeBall(click mouse)/Untitled.gif" width="620px">
 
-## 例題5
+## example 5
 
 ### Bounce(PockeBall)
-物体をななめ方向へ移動させ、画面の端へ来ると跳ね返るアニメーション。
+Animation of an object moving diagonally and bouncing back when it reaches the edge of the screen.
 
 ソースコード：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
 
@@ -272,11 +272,11 @@ Result
 
 <img src="Bounce(PokeBall)/Untitled.gif" width="620px">
 
-## 例題6
+## example 6
 
 ### Bounce2
-物体をななめ方向へ移動させ、画面の端へ来ると跳ね返る瞬間に画面の色が変わるアニメーション。
-例題5に似ているようなアニメーションで、以下のコードを追加します。
+An animation in which an object is moved in a diagonal direction, and when it comes to the edge of the screen, the screen changes color at the moment it bounces back.
+Add the following code for an animation similar to Example 5.
 ```python=
 r = 0
 g = 0
@@ -300,19 +300,20 @@ def draw():
   b = random(255)
 ```
 
-ソースコード：[Bounce2](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce2/sketch_220611c/sketch_220611c.pyde)
+Source code：[Bounce2](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce2/sketch_220611c/sketch_220611c.pyde)
 
 Result
 
 <img src="Bounce2/Untitled.gif" width="620px">
 
-### 例題7
+### example 7
 
 
 
 ### Cube Color Animation_01
 
-ソースコード：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
+Source	code
+：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
 
 Result
 
