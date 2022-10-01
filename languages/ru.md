@@ -1,25 +1,23 @@
 # py.Processing-animations
-Animations with Processing Python Mode
+Processing Анимации с помощью Python.
 
 
-## First Contributions
-Processing can be downloaded from the site and simply installed to create a programming environment.
-Please download it from the site below. No donation is required. Please check the box (No Donation).
-https://processing.org/download/
+## Первый процесс.
+Processing можно загрузить с сайта и просто установить для создания среды программирования, скачайте его с сайта: https://processing.org/download/
 
 <img src="image-processing/py.processing-consol.png" width="550px">
 
-The initial setup:
-For Mac: click on &#34;Processing&#34; in the menu bar and select Preferences.
+Начальная настройка:
+Для Mac: нажмите на &#34;Processing&#34; в строке меню и выберите Preferences.
 
-For Windows: go to File > Preferences.
-Set up the following:
-- Set the language
-- Set editor and console fonts to &#34;Osaka&#34; for Mac or &#34;Ms Gothic&#34; for Windows
-- Check Enable complex text input
-- Check Code completion Ctrl-space
+Для Windows: перейдите в меню File > Preferences.
+Настройте следующее:
+- Установите язык
+- Установите шрифты редактора и консоли на &#34;Osaka&#34; для Mac или &#34;Ms Gothic&#34; для Windows.
+- Установите флажок включить ввод текста
+- Проверьте завершение кода Ctrl-пробел
 
-After setup is complete, Reboot the system.
+После завершения настройки перезагрузите систему.
 
 ## Let's run the program.
 Copy and paste the following program into the code.
