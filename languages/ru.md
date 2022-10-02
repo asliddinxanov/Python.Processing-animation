@@ -19,8 +19,10 @@ Processing можно загрузить с сайта и просто уста�
 
 После завершения настройки перезагрузите систему.
 
-## Let's run the program.
-Copy and paste the following program into the code.
+## Давайте запустим программу.
+
+Скопируйте и вставьте код следующую программу.
+
 ```python=
 #Blocks that are executed only once at the beginning when the program is executed
 def setup():
@@ -35,23 +37,25 @@ def draw():
     d = 300 #variable representing the diameter of the circle, assigned 300
     ellipse(x,y,d,d); #method to draw a circle (ellipse)
 ```
-When you run this program, will see the image.
+Когда вы запустите эту программу, увидите изображение.
 
 <img src="image-processing/run-1.png" width="550px">
 
-## New, Save, Debug
+## Новый(New), Сохранить(Save), Отладка(Debug).
 
-To create a new program or save a program, select an item from the menu "File" and execute it. Alternatively, you can use the shortcut keys.  As for where to save the file, there is a folder called `Processing` in the Documents folder. For example, if you save a program named `test1`, a folder named `test1` will be created in the Processing folder, and the program file `test1.pde` will be saved there.
+Чтобы создать новую программу или сохранить программу, выберите пункт в меню "File" и выполните его. В качестве альтернативы можно использовать клавиши быстрого доступа.  Что касается места сохранения файла, то в папке Documents folder `Processing`. Например, если вы сохраните программу с именем `test1`, в папке Processing будет создана папка `test1`, и в ней будет сохранен файл программы `test1.pde`.
 
 <img src="image-processing/im-1.png" width="400px">
 
-Also, debugging, you can see the error message and the line where the error is occurring by clicking on the "Errors" tab below.
+
+Кроме того, при отладке вы можете увидеть сообщение об ошибке и строку, в которой происходит ошибка, перейдя на вкладку "Ошибки(Errors)" ниже.
 
 <img src="image-processing/error.png" width="550px">
 
-## Line
+## Линия(Line).
 
-The line function is used to draw a line. The first two variables are the coordinates of the end of the line, and the next two are the coordinates of the other end of the line. For example, the following is the result of executing this program. The end coordinates are (30, 40) and (200, 80).
+Функция line используется для построения линии. Первые две переменные - это координаты конца линии, а следующие две - координаты другого конца линии. Например, результат выполнения этой программы следующий. Координаты конца линии - (30, 40) и (200, 80).
+
 ```python=
 def setup():
   size(240,120)
@@ -59,7 +63,7 @@ def setup():
 ```
 <img src="image-processing/run-2.png" width="400px">
 
-## Execution order
+## Порядок исполнения.
 Processing executes instructions in order, starting with the first instruction. Therefore, when drawing overlapping figures, the order in which the programs are executed is important. For example, what happens to these two programs? The first instruction is executed first.
 
 ```python=
