@@ -82,10 +82,10 @@ def setup():
 ```
 <img src="image-processing/run-4.png" width="400px">
 
-## Color
+## Цвет(Color)
 
-Processing is, you can add color to shapes and backgrounds. There are two types of color that can be set: grayscale and RGB. First, we explain the grayscale setting. Gray color is represented by a value from `0` to `255`. Smaller values represent darker colors, and larger values represent lighter color. These values are written to variables in the background and shape fill functions.
-For example, let's create a window that is 120 by 240 and specify the background color with the background function. In this case, the value is set to 0, which represents pitch black. Next, specify the fill color of the shape with the `fill` function. We set it to 200, which is a light gray color. Next, we write a function to draw a circle, which reflects the previous color specification, so a light gray circle is drawn. Next, we again specify 100 as the dark gray color in the fill function. Then, the next circle drawn will be filled with dark gray. Try writing the following program.
+Обработка заключается в том, что можно добавить цвет к фигурам и фонам. Существует два типа цвета, которые можно задать: градации серого и RGB. Сначала мы объясним настройку оттенков серого. Серый цвет представлен значением от `0` до `255`. Меньшие значения представляют более темные цвета, а большие - более светлые. Эти значения записываются в переменные в функциях background и shape fill.
+Например, давайте создадим окно размером 120 на 240 и зададим цвет фона с помощью функции background. В данном случае значение установлено в 0, что означает абсолютно черный цвет. Затем зададим цвет заливки фигуры с помощью функции `fill`. Мы установили значение 200, что представляет собой светло-серый цвет. Далее мы пишем функцию для рисования окружности, которая отражает предыдущую цветовую спецификацию, поэтому рисуется светло-серый круг. Далее мы снова задаем 100 в качестве темно-серого цвета в функции заливки. Тогда следующий нарисованный круг будет заполнен темно-серым цветом. Попробуйте написать следующую программу.
 
 ```python=
 def setup():
@@ -98,7 +98,8 @@ def setup():
 ```
 ## RGB
 
-RGB colors are specified by three numbers: `Red`, `Green`, and `Blue`. Each number has a value from 0 to 255, and as with grayscale, the smaller the value, the darker the color. This program draws four different colored circles.
+Цвета RGB задаются тремя числами: `красный`, `зеленый` и `синий`. Каждое число имеет значение от 0 до 255, и, как и в случае с градациями серого, чем меньше значение, тем темнее цвет. Эта программа рисует четыре разных цветных круга.
+
 ```python=
 def setup():
   size(450,150)
@@ -114,7 +115,7 @@ def setup():
 ```
 <img src="image-processing/run-5.png" width="400px">
 
-## Checking color values
+## Проверка значений цвета.
 
 When you want to know the value of the color you want to specify, it is convenient to use the color selector. Click on your favorite color to see the RGB value corresponding to that color.
 
