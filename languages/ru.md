@@ -141,7 +141,7 @@ def setup():
   
   ## Переменные.
 
-  Processing is, like other programming languages, allows the use of variables. This makes it easy to represent repetitive processes. You can also perform operations such as addition on variables. The following program will draw three circles. These circles are the same height, equal distance, and the same size with respect to the y-axis. By making these same values variables, it is not necessary to write the same numbers each time in the instructions for drawing the circles.
+  Processing, как и другие языки программирования, позволяет использовать переменные. Это позволяет легко представлять повторяющиеся процессы. Над переменными также можно выполнять такие операции, как сложение. Следующая программа нарисует три окружности. Эти окружности имеют одинаковую высоту, одинаковое расстояние и одинаковый размер относительно оси y. Благодаря тому, что эти одинаковые значения являются переменными, нет необходимости каждый раз писать одни и те же числа в инструкциях по рисованию окружностей.
 
 ```python=
 size(400, 200)
@@ -155,9 +155,9 @@ ellipse(x+d, y, s, s)
 ellipse(x+d∗2, y, s, s)
 ```
 
-## 特Another variable
+## Другая переменная
 
-Processing has several special variables. For example, width and height, which represent the width and height of the window. You do not need to declare these variables; they are automatically assigned to the variables of the `size` function, which specifies the size of the window. Using these values, consider the following program that draws a circle around the diagonal and center of the window. First, create a window with the `size` function. Then, 400 is assigned to `width` and 200 to `height`. Using these variables, we can represent the diagonals and the center of the circle.
+Processing имеет несколько специальных переменных. Например, width и height, которые представляют собой ширину и высоту окна. Вам не нужно объявлять эти переменные; они автоматически присваиваются переменным функции `size`, которая задает размер окна. Используя эти значения, рассмотрим следующую программу, которая рисует круг вокруг диагонали и центра окна. Сначала создайте окно с помощью функции `size`. Затем, 400 присваивается `width`, а 200 - `height`. Используя эти переменные, мы можем представить диагонали и центр окружности.
 
 ```python=
 size(400,200)
@@ -167,7 +167,7 @@ ellipse(width/2, height/2, 100, 100)
 ```
  <img src="image-processing/run-7.png" width="400px">
  
-## input `setup()` and `draw()`
+## ввод `setup()` и `draw()`
 
 The programs we have described so far were programs that executed from the top to the bottom and ended when they were executed to the end. If you want to create an animation that changes its motion based on external input, such as a mouse click, the program needs to keep running. So we use the `setup` function and the `draw` function: the setup function is a function that is executed only once, and the draw function is a function that is executed repeatedly until the stop button is pressed. Let's see how these functions are executed. The print function prints a string or the value of a variable to the console at the bottom of the screen, and the variable called frame count in the draw function is a special variable that stores the number of frames in which the draw function is executed from top to bottom, which is called a frame. By the way, if you do not specify anything, it is 60 frames per second, and this number can be changed. Now, press the Run button, and then press the Stop button immediately. And if you go back up to the top with the scroll bar next to the console, you will see that the setup function is only shown once, while the draw function is executed many times.
 
