@@ -117,13 +117,13 @@ def setup():
 
 ## Проверка значений цвета.
 
-When you want to know the value of the color you want to specify, it is convenient to use the color selector. Click on your favorite color to see the RGB value corresponding to that color.
+Когда вы хотите узнать значение цвета, который хотите задать, удобно использовать селектор цветов. Нажмите на понравившийся цвет, чтобы увидеть значение RGB, соответствующее этому цвету.
 
 <img src="image-processing/selectColor.png" width="400px">
 
-## Transparency
+## Транспарентность
 
-Color settings, you can also add transparency. After the number representing the color, add a number representing the transparency. Values range from 0 to 255, with smaller values indicating transparency and larger values opaqueness. In the case of grayscale, the color and transparency are specified by two numbers, one for the color and one for the transparency. In the case of `RGB` color, there are three values for the color and four values for the transparency. Let's look at an example of this program, which draws three circles, and the result looks like this: Each of the three circles has a color and a transparency value specified. Since they are semi-transparent, the colors of the overlapping areas are mixed.
+В настройках цвета можно также добавить прозрачность. После числа, обозначающего цвет, добавьте число, обозначающее прозрачность. Значения варьируются от 0 до 255, при этом меньшие значения означают прозрачность, а большие - непрозрачность. В случае с градациями серого цвет и прозрачность задаются двумя числами, одно для цвета, другое для прозрачности. В случае с цветом `RGB` есть три значения для цвета и четыре значения для прозрачности. Рассмотрим пример этой программы, которая рисует три окружности, и результат выглядит следующим образом: Для каждого из трех кругов заданы цвет и значение прозрачности. Поскольку они полупрозрачны, цвета перекрывающихся областей смешиваются.
 
 ```python=
 def setup():
@@ -139,7 +139,7 @@ def setup():
   ```
  <img src="image-processing/RGB.png" width="400px">
   
-  ## Variables
+  ## Переменные.
 
   Processing is, like other programming languages, allows the use of variables. This makes it easy to represent repetitive processes. You can also perform operations such as addition on variables. The following program will draw three circles. These circles are the same height, equal distance, and the same size with respect to the y-axis. By making these same values variables, it is not necessary to write the same numbers each time in the instructions for drawing the circles.
 
