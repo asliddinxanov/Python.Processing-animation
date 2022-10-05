@@ -210,19 +210,19 @@ for x in range(20, width-20, 10):
 
 [Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Pixel_art(image)/art_pixel.pyde)
 
-## Let's write various animations using the functions we have studied so far.
+## Давайте напишем различные анимации, используя функции, которые мы изучили до сих пор.
 
-## example 1
+## например (1)
 
-### Array
+### Массив(Array)
 
 ソースコード：[array](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array/anim-1.pyde)
 
-Result
+Результат
 
 <img src="array/array/run_anim-1.png" width="500px">
 
-### array_animation
+### массив_анимации
 
 ソースコード：[array_animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array_animation/kadai1_2.pyde)
 
