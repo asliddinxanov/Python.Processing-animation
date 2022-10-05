@@ -206,7 +206,7 @@ for x in range(20, width-20, 10):
 
 <img src="Pixel_art(image)/pokeball.png" width="300px">
 
-Давайте напишем изображение Pokebal
+Давайте напишем код изображение Pokebal
 
 [Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Pixel_art(image)/art_pixel.pyde)
 
@@ -232,7 +232,7 @@ for x in range(20, width-20, 10):
 
 ## например 2
 
-### Mouse Vector
+### Вектор мыши
 
 ソースコード：[Mouse Vector](https://github.com/asliddinxanov/py.Processing-animations/blob/main/mouse%20vector/mouse%20vector/kadai2_2.pyde)
 
@@ -242,7 +242,7 @@ for x in range(20, width-20, 10):
 
 ## например 3
 
-### Array Animation
+### Анимация массива
 
 ソースコード：[array_animation_pixart](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixArt_animation/pixArt_animation.pyde)
 
@@ -252,9 +252,9 @@ for x in range(20, width-20, 10):
 
 ## например 4
 
-### Click Mouse Animation (PokeBall)
+### Анимация нажатия кнопки мыши (PokeBall)
 
-This animation uses `OOP` (Object Oriented Programming). `Poke_main.pyde`, `PokePix.py`.
+В этой анимации используется`OOP` (Object Oriented Programming). `Poke_main.pyde`, `PokePix.py`.
 
 Poke_main：[Poke_main.pyde](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/Poke_main.pyde)
 
@@ -267,7 +267,7 @@ PokePix：[PokePix.py](https://github.com/asliddinxanov/py.Processing-animations
 ## например 5
 
 ### Bounce(PockeBall)
-Animation of an object moving diagonally and bouncing back when it reaches the edge of the screen.
+Анимация объекта, движущегося по диагонали и отскакивающего назад, когда он достигает края экрана.
 
 ソースコード：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
 
@@ -278,8 +278,9 @@ Animation of an object moving diagonally and bouncing back when it reaches the e
 ## например 6
 
 ### Bounce2
-An animation in which an object is moved in a diagonal direction, and when it comes to the edge of the screen, the screen changes color at the moment it bounces back.
-Add the following code for an animation similar to Example 5.
+Анимация, в которой объект перемещается в диагональном направлении, и когда он подходит к краю экрана, экран меняет цвет в момент его отскока.
+Добавьте следующий код для анимации, аналогичной (примеру 5).
+
 ```python=
 r = 0
 g = 0
