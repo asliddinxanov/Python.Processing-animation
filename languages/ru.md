@@ -196,17 +196,17 @@ for x in range(20, width-20, 10):
 ```
 <img src="image-processing/run-9.png" width="600px">
 
-## Position
+## Позиция(Position).
 
-In the previous program, the circle goes out of the screen in the middle of the program because the value of x keeps getting larger and larger. To keep it on the screen, the position of the object must be adjusted so that it fits in the window. For example, to the previous program, add a conditional branch as shown in the following program: If the value of x exceeds the width of the window, the instruction is to return the value of x to the left edge. The outgoing circle will then reappear from the left.
+В предыдущей программе круг выходит за пределы экрана в середине программы, потому что значение x становится все больше и больше. Чтобы удержать его на экране, необходимо изменить положение объекта так, чтобы он поместился в окне. Например, к предыдущей программе добавьте условную ветвь, как показано в следующей программе: Если значение x превышает ширину окна, то инструкция возвращает значение x к левому краю. После этого выходящая окружность снова появится слева.
 
 ## PixelArt
 
-Although pixel art has strong ties to gaming, pixel art is no longer confined to the inner workings of gaming culture. People may enjoy it in different ways: some may enjoy it for its nostalgia, others for its new graphic style, and still others for its pure cuteness, but in any case, drawing and viewing pixel art is a culture in and of itself. This time, let's try drawing `Pixelart` images on processin.
+Хотя пиксель-арт тесно связан с играми, пиксель-арт больше не ограничивается внутренним миром игровой культуры. Людям он нравится по-разному: кому-то он нравится из-за ностальгии, кому-то из-за нового графического стиля, а кому-то из-за чистой миловидности, но в любом случае, рисование и просмотр пиксель-арта - это целая культура. На этот раз давайте попробуем нарисовать изображения в стиле `Pixelart` на processin.
 
 <img src="Pixel_art(image)/pokeball.png" width="300px">
 
-Let's write this Pokeball image
+Давайте напишем изображение Pokebal
 
 [Pixle_Art_code](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Pixel_art(image)/art_pixel.pyde)
 
