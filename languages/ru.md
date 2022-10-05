@@ -230,7 +230,7 @@ for x in range(20, width-20, 10):
 
 <img src="array/array_animation/kadai1_2(gif).gif" width="600px">
 
-## например 2
+## например (2)
 
 ### Вектор мыши
 
@@ -240,7 +240,7 @@ for x in range(20, width-20, 10):
 
 <img src="mouse vector/mouse vector/Untitled.gif" width="600px">
 
-## например 3
+## например (3)
 
 ### Анимация массива
 
@@ -250,7 +250,7 @@ for x in range(20, width-20, 10):
 
 <img src="pixArt_animation/Untitled.gif" width="600px">
 
-## например 4
+## например (4)
 
 ### Анимация нажатия кнопки мыши (PokeBall)
 
@@ -264,7 +264,7 @@ PokePix：[PokePix.py](https://github.com/asliddinxanov/py.Processing-animations
 
 <img src="PokeBall(click mouse)/Untitled.gif" width="620px">
 
-## например 5
+## например (5)
 
 ### Bounce(PockeBall)
 Анимация объекта, движущегося по диагонали и отскакивающего назад, когда он достигает края экрана.
@@ -275,7 +275,7 @@ PokePix：[PokePix.py](https://github.com/asliddinxanov/py.Processing-animations
 
 <img src="Bounce(PokeBall)/Untitled.gif" width="620px">
 
-## например 6
+## например (6)
 
 ### Bounce2
 Анимация, в которой объект перемещается в диагональном направлении, и когда он подходит к краю экрана, экран меняет цвет в момент его отскока.
@@ -310,7 +310,7 @@ Source code：[Bounce2](https://github.com/asliddinxanov/py.Processing-animation
 
 <img src="Bounce2/Untitled.gif" width="620px">
 
-### например 7
+### например (7)
 
 
 
