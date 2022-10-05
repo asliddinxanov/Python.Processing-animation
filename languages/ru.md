@@ -226,31 +226,31 @@ for x in range(20, width-20, 10):
 
 ソースコード：[array_animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array_animation/kadai1_2.pyde)
 
-Result
+Результат
 
 <img src="array/array_animation/kadai1_2(gif).gif" width="600px">
 
-## example 2
+## например 2
 
 ### Mouse Vector
 
 ソースコード：[Mouse Vector](https://github.com/asliddinxanov/py.Processing-animations/blob/main/mouse%20vector/mouse%20vector/kadai2_2.pyde)
 
-Result
+Результат
 
 <img src="mouse vector/mouse vector/Untitled.gif" width="600px">
 
-## example 3
+## например 3
 
 ### Array Animation
 
 ソースコード：[array_animation_pixart](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixArt_animation/pixArt_animation.pyde)
 
-Result
+Результат
 
 <img src="pixArt_animation/Untitled.gif" width="600px">
 
-## example 4
+## например 4
 
 ### Click Mouse Animation (PokeBall)
 
@@ -260,22 +260,22 @@ Poke_main：[Poke_main.pyde](https://github.com/asliddinxanov/py.Processing-anim
 
 PokePix：[PokePix.py](https://github.com/asliddinxanov/py.Processing-animations/blob/main/PokeBall(click%20mouse)/PokePix.py)
 
-Result
+Результат
 
 <img src="PokeBall(click mouse)/Untitled.gif" width="620px">
 
-## example 5
+## например 5
 
 ### Bounce(PockeBall)
 Animation of an object moving diagonally and bouncing back when it reaches the edge of the screen.
 
 ソースコード：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
 
-Result
+Результат
 
 <img src="Bounce(PokeBall)/Untitled.gif" width="620px">
 
-## example 6
+## например 6
 
 ### Bounce2
 An animation in which an object is moved in a diagonal direction, and when it comes to the edge of the screen, the screen changes color at the moment it bounces back.
@@ -305,11 +305,11 @@ def draw():
 
 Source code：[Bounce2](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce2/sketch_220611c/sketch_220611c.pyde)
 
-Result
+Результат
 
 <img src="Bounce2/Untitled.gif" width="620px">
 
-### example 7
+### например 7
 
 
 
@@ -318,7 +318,7 @@ Result
 Source	code
 ：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
 
-Result
+Результат
 
 <img src="cube-color-animation/sketch_220619a/cube-ran.png" width="600px">
 
@@ -327,6 +327,6 @@ Result
 
 ソースコード：[2D grid animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/2D%20grid-animation/sketch_220729a/sketch_220729a.pyde)
 
-Result
+Результат
 
 <img src="2D%20grid-animation/2D-anim.png" width="620px">
