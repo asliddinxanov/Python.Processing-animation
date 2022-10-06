@@ -314,7 +314,7 @@ Source code：[Bounce2](https://github.com/asliddinxanov/py.Processing-animation
 
 
 
-### Cube Color Animation_01
+### Анимация цвета куба_01
 
 Source	code
 ：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
@@ -324,7 +324,7 @@ Source	code
 <img src="cube-color-animation/sketch_220619a/cube-ran.png" width="600px">
 
 
-### 2D Grid Animation
+### 2D Grid Анимация
 
 ソースコード：[2D grid animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/2D%20grid-animation/sketch_220729a/sketch_220729a.pyde)
 
