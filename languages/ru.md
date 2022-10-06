@@ -179,9 +179,9 @@ def draw():
 ```
 <img src="image-processing/run-8.png" width="400px">
 
-## Iterative process
+## Итеративный процесс.
 
-You can use variables and `for` to iterate. Here are two examples of programs that use the variables `width` and `height` and the repetitive process: the first program creates a black background and repeatedly writes white circles and gray lines in a double `for` loop. When executed, this produces the following graphic.
+Для итерации можно использовать переменные и `for`. Вот два примера программ, использующих переменные `width` и `height` и повторяющийся процесс: первая программа создает черный фон и многократно пишет белые круги и серые линии в двойном цикле `for`. При выполнении получается следующий график.
 
 ```pyhton=
 size(400,200)
