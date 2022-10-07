@@ -8,14 +8,13 @@ https://processing.org/download/
 
 <img src="image-processing/py.processing-consol.png" width="550px">
 
-まずは初期設定です。Macならメニューバーの&#34;Processing&#34;のところをクリックして環境設定を選択してください。Windowsならファイル＞設定と進みます。
-以下を設定してください。
-- 言語を必要な言語に（日本語）にする
-- エディタとコンソールのフォントをMacなら&#34;Osaka&#34;、Windowsなら&#34;Ms Gothic&#34;にする
-- 複雑なテキスト入力を有効にするにチェックを入れる
-- コード補完 Ctrl-spaceにチェックを入れる
+Dastlabki sozlash. MacOSda menyu satrida &#34;Processing&#34;-ni bosing va Preferences-ni tanlang. Windows-da File>Settings-ga o'ting.
+Quyidagilarni o'rnating。
+- エMonitor va konsol shriftini Mac-da &#34;Osaka&#34; va Windows-da &#34;Ms Gothic&#34;ga o'zgartiring.
+- Murakkab matn kiritishni yoqish-ni belgilang
+- Kodning bajarilishini tekshiring : Ctrl-space
 
-設定したら、一度再起動して下さい。
+Sozlagandan so'ng, bir marta PCni qayta yoqing.
 
 ## プログラムを実行してみよう
 以下のプログラムをコード入力画面にコピー＆ペーストしてください。
