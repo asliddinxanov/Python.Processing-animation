@@ -1,9 +1,9 @@
 # py.Processing-animations
 Animations with Processing Python Mode
 
-## 最初に
-Processingはサイトからダウンロードしてきてインストールするだけで、プログラミング環境が整います。
-以下サイトからダウンロードしてください。寄付の必要はありません。「No Donation」にチェックを入れてください。
+## Kirish
+
+Iltimos, quyidagi saytdan Processingni yuklab oling va o'rnating, shunda dasturlash muhiti tayyor bo'ladi. Donat talab qilinmaydi. Iltimos, "No Donation" bandini tekshiring.
 https://processing.org/download/
 
 <img src="image-processing/py.processing-consol.png" width="550px">

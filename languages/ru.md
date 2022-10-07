@@ -216,7 +216,7 @@ for x in range(20, width-20, 10):
 
 ### Массив(Array)
 
-ソースコード：[array](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array/anim-1.pyde)
+Source code：[array](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array/anim-1.pyde)
 
 Результат
 
@@ -224,7 +224,7 @@ for x in range(20, width-20, 10):
 
 ### массив_анимации
 
-ソースコード：[array_animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array_animation/kadai1_2.pyde)
+Source code：[array_animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/array/array_animation/kadai1_2.pyde)
 
 Результат
 
@@ -234,7 +234,7 @@ for x in range(20, width-20, 10):
 
 ### Вектор мыши
 
-ソースコード：[Mouse Vector](https://github.com/asliddinxanov/py.Processing-animations/blob/main/mouse%20vector/mouse%20vector/kadai2_2.pyde)
+Source code：[Mouse Vector](https://github.com/asliddinxanov/py.Processing-animations/blob/main/mouse%20vector/mouse%20vector/kadai2_2.pyde)
 
 Результат
 
@@ -244,7 +244,7 @@ for x in range(20, width-20, 10):
 
 ### Анимация массива
 
-ソースコード：[array_animation_pixart](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixArt_animation/pixArt_animation.pyde)
+Source code：[array_animation_pixart](https://github.com/asliddinxanov/py.Processing-animations/blob/main/pixArt_animation/pixArt_animation.pyde)
 
 Результат
 
@@ -269,7 +269,7 @@ PokePix：[PokePix.py](https://github.com/asliddinxanov/py.Processing-animations
 ### Bounce(PockeBall)
 Анимация объекта, движущегося по диагонали и отскакивающего назад, когда он достигает края экрана.
 
-ソースコード：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
+Source code：[Bounce](https://github.com/asliddinxanov/py.Processing-animations/blob/main/Bounce(PokeBall)/sketch_220611b/sketch_220611b.pyde)
 
 Результат
 
@@ -316,7 +316,7 @@ Source code：[Bounce2](https://github.com/asliddinxanov/py.Processing-animation
 
 ### Анимация цвета куба_01
 
-Source	code
+Source code
 ：[color-animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/cube-color-animation/sketch_220619a/sketch_220619a.pyde)
 
 Результат
@@ -326,7 +326,7 @@ Source	code
 
 ### 2D Grid Анимация
 
-ソースコード：[2D grid animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/2D%20grid-animation/sketch_220729a/sketch_220729a.pyde)
+Source code：[2D grid animation](https://github.com/asliddinxanov/py.Processing-animations/blob/main/2D%20grid-animation/sketch_220729a/sketch_220729a.pyde)
 
 Результат
 
