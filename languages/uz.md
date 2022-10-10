@@ -58,9 +58,9 @@ def setup():
 ```
 <img src="image-processing/run-2.png" width="400px">
 
-## Amalga oshirish tartibi.
+## Amalga oshirish tartibi.(Run)
 
-Qayta ishlash birinchi buyruqdan boshlab ketma-ket amalga oshiriladi. Shuning uchun, bir-biriga o'xshash shakllarni chizishda dasturni bajarish tartibi muhim ahamiyatga ega. Misol uchun, bu ikki dastur bilan nima sodir bo'ladi? Avval yozilgan ko'rsatmalar birinchi navbatda bajariladi.
+(Run)ni ishlash birinchi buyruqdan boshlab ketma-ket amalga oshiriladi. Shuning uchun, bir-biriga o'xshash shakllarni chizishda dasturni bajarish tartibi muhim ahamiyatga ega. Misol uchun, bu ikki dastur bilan nima sodir bo'ladi? Avval yozilgan ko'rsatmalar birinchi navbatda bajariladi.
 
 ```python=
 def setup():
@@ -78,10 +78,10 @@ def setup():
 ```
 <img src="image-processing/run-4.png" width="400px">
 
-## 色 (Color)
+## Rang (Color).
 
-Processing では、図形や背景に色をつけることができます。設定できる色は二種類あり、グレースケールと、RGBで指定する色です。まず、グレースケールの設定について説明します。グレーの色は `0`から `255`の値で表します。値が小さいほど暗く、値が大きいほど明るい色を表しています。この数値は、背景や図形の塗り潰しの関数の変数に書きます。
-例えば、240かける 120のウィンドウを作り、background 関数で背景の色を指定します。ここでは、真っ黒を表す 0としています。 次に、図形の塗り潰しの色を `fill`関数で指定します。明るいグレーの色として、200としました。その次に円を描く関数を書いていますが、直前の色の指定が反映されるので、明るいグレーの円が描かれます。次にまた、fill 関数で暗いグレーとして 100を指定します。すると、次に描かれる円は、暗いグレーに塗り潰されています。試しに以下のプログラムを書いてみてください。
+Processingda shakllar va fonlar rangli bo'lishi mumkin. O'rnatish mumkin bo'lgan ikki xil rang mavjud, kulrang rang va RGB tomonidan belgilangan ranglar. Birinchidan, kulrang shkala sozlamalari haqida gapiraylik. Kulrang ranglar "0" dan "255" gacha bo'lgan qiymatlar bilan ifodalanadi. Pastroq qiymat ochroq rangni, yuqoriroq qiymat esa yorqinroq rangni bildiradi. Bu raqam fon va shaklni to'ldirish funksiyasining o'zgaruvchisiga yoziladi.
+Misol uchun, 240 marta 120 bo'lgan oyna yarating va fon rangini fon funktsiyasi bilan belgilang. Bu erda 0 sof qora rangni ifodalaydi. Keyin, “to'ldirish” funksiyasi bilan shaklning to'ldirish rangini belgilang. Ochiq kul rang sifatida men uni 200 ga qo'ydim. Keyinchalik, men doira chizadigan funktsiyani yozdim, lekin oldingi rang spetsifikatsiyasi aks ettirilgan, shuning uchun ochiq kulrang doira chizilgan. Keyin, shuningdek, to'ldirish funksiyasida 100 ni quyuq kulrang sifatida belgilang. Keyin chizilgan keyingi doira quyuq kulrang rang bilan to'ldiriladi. Quyidagi dasturni yozishga harakat qiling.
 
 ```python=
 def setup():
@@ -94,7 +94,8 @@ def setup():
 ```
 ## RGB
 
-RGB カラーは、`赤(Red)`、`緑(Green)`、`青(Blue)`の 3つの数値で色を指定します。それぞれの数値は、0から 255の値をとり、グレースケールと同様に、値が小さいほど暗い色を表します。このプログラムは、4つの異なる色の円を描くプログラムです。
+RGB ranglar, rangni uchta raqam bilan belgilanadi, "Qizil", "Yashil" va "Moviy". Har bir raqam 0 dan 255 gacha bo'lgan qiymatga ega va kulrang rangdagi kabi, qiymat qanchalik past bo'lsa rang quyuqroq bo'ladi. Bu dastur to'rt xil rangdagi doiralarni chizadigan dasturdir.
+
 ```python=
 def setup():
   size(450,150)
