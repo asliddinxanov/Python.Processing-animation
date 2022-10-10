@@ -16,10 +16,11 @@ Quyidagilarni o'rnating。
 
 Sozlagandan so'ng, bir marta PCni qayta yoqing.
 
-## プログラムを実行してみよう
-以下のプログラムをコード入力画面にコピー＆ペーストしてください。
+## Dasturni ishga tushirib ko'ramiz.
+Quyidagi dasturdan nusxa ko'chiring va kod kiritish ekraniga joylashtiring.
+
 ```python=
-#プログラムを実行したとき、始めに一回だけ実行されるブロック
+#Dasturning bajarilishi boshida faqat bir marta bajariladigan blok
 def setup():
   size(500,500)  #ウィンドウのサイズを設定するメソッド。500x500に設定
   background(255,255,255) #背景色を設定する関数。白に設定
