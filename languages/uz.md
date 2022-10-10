@@ -43,13 +43,14 @@ Yangi dastur yaratish va saqlash uchun “Fayl” menyusidan biror bandni tanlan
 
 <img src="image-processing/im-1.png" width="400px">
 
-また、デバッグですが、下の「エラー」のタブをクリックすると、エラーメッセージとエラーの発生している行を確認することができます。
+Bundan tashqari, "Error" tugmasini bosish orqali xato xabari va xatolik yuzaga kelgan qatorni tekshirishingiz mumkin.
 
 <img src="image-processing/error.png" width="550px">
 
-## 線 (Line)
+## Line
 
-線の書き方です。line 関数を使います。変数は 4つあり、はじめの 2つは、線の端の座標、次の 2つは、 線のもう一方の端の座標を書きます。例えば、このプログラムを実行すると以下のようになります。端の座標は、(30, 40) と (200, 80)です。
+Chizish chiziq funksiyasidan to'rtta o'zgaruvchi mavjud, birinchi ikkitasi chiziq oxiri koordinatalari, keyingi ikkitasi chiziqning boshqa uchi koordinatalari. Masalan, ushbu dasturni ishga tushirish quyidagicha ko'rinadi: Chet koordinatalari (30, 40) va (200, 80).
+
 ```python=
 def setup():
   size(240,120)
@@ -57,8 +58,10 @@ def setup():
 ```
 <img src="image-processing/run-2.png" width="400px">
 
-## 実行の順序
-Processing は、先頭の命令から順に実行されます。したがって、重なり合う図形を描く場合、プログラム の実行順序は重要です。例えば、これらの二つのプログラムはどうなるでしょうか。先に書かれた命令から 実行されます。
+## Amalga oshirish tartibi.
+
+Qayta ishlash birinchi buyruqdan boshlab ketma-ket amalga oshiriladi. Shuning uchun, bir-biriga o'xshash shakllarni chizishda dasturni bajarish tartibi muhim ahamiyatga ega. Misol uchun, bu ikki dastur bilan nima sodir bo'ladi? Avval yozilgan ko'rsatmalar birinchi navbatda bajariladi.
+
 ```python=
 def setup():
   size(120,100)
