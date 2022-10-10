@@ -22,24 +22,24 @@ Quyidagi dasturdan nusxa ko'chiring va kod kiritish ekraniga joylashtiring.
 ```python=
 #Dasturning bajarilishi boshida faqat bir marta bajariladigan blok
 def setup():
-  size(500,500)  #ウィンドウのサイズを設定するメソッド。500x500に設定
-  background(255,255,255) #背景色を設定する関数。白に設定
-  fill(0,255,0) #図形の塗りつぶし色を設定するメソッド。緑に設定
+  size(500,500)
+  background(255,255,255)
+  fill(0,255,0)
 
-#プログラムを実行したとき、ループして実行されるブロック
+#Dasturni ishga tushirganda siklda bajariladigan blok
 def draw():
     x = 250 #円の中心のx座標を表す変数、250を代入
     y = 250 #円の中心のy座標を表す変数、250を代入
     d = 300 #円の直径を表す変数、300を代入
     ellipse(x,y,d,d); #円（楕円）を描くメソッド
 ```
-このプログラムを実行すると以下のような画像が表示されます。
+Ushbu dasturni ishga tushirganingizda quyidagi rasmni ko'rasiz.
 
 <img src="image-processing/run-1.png" width="550px">
 
-## 新規作成、保存、デバッグ
+## New, Save, Debug
 
-プログラムの新規作成、保存は、メニューの「ファイル」から項目を選んで実行します。もしくは、ショートカットキーでも行うことができます。  ファイルの保存場所ですが、書類フォルダの中に、Processing というフォルダがあります。例えば、`test1` という名前でプログラムを保存する場合、Processing フォルダの中に、`test1` フォルダができ、その中に `test1.pde` というプログラムファイルが保存されます。
+Yangi dastur yaratish va saqlash uchun “Fayl” menyusidan biror bandni tanlang va uni bajaring. Yoki buni shortcut key bilan ham qilishingiz mumkin. Faylni saqlash joyiga kelsak, hujjat papkasida Processing deb nomlangan papka mavjud. Masalan, dasturni `test1` nomi bilan saqlasangiz, Processing papkasida `test1.pde` nomli dastur fayli bo`lgan `test1` jildi bo`ladi.
 
 <img src="image-processing/im-1.png" width="400px">
 
