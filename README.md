@@ -1,6 +1,8 @@
 # py.Processing-animations
 Animations with Processing Python Mode
 
+<kbd>[<img title="Русский язык" alt="Русский язык" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/ru.svg" width="22">](translations/README.ru.md)</kbd>
+
 ## 最初に
 Processingはサイトからダウンロードしてきてインストールするだけで、プログラミング環境が整います。
 以下サイトからダウンロードしてください。寄付の必要はありません。「No Donation」にチェックを入れてください。
