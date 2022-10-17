@@ -5,7 +5,7 @@ Processing Анимации с помощью Python.
 ## Первый процесс.
 Processing можно загрузить с сайта и просто установить для создания среды программирования, скачайте его с сайта: https://processing.org/download/
 
-<img src="image-processing/py.processing-consol.png" width="550px">
+<img src="[image-processing/py.processing-consol.png](https://github.com/asliddinxanov/Python.Processing-animation/blob/main/image-processing/py.processing-consol.png)" width="550px">
 
 Начальная настройка:
 Для Mac: нажмите на &#34;Processing&#34; в строке меню и выберите Preferences.
