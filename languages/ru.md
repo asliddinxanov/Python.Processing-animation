@@ -39,7 +39,7 @@ def draw():
 ```
 Когда вы запустите эту программу, увидите изображение.
 
-<img src="image-processing/run-1.png" width="550px">
+<img src="https://github.com/asliddinxanov/Python.Processing-animation/blob/main/image-processing/run-1.png" width="550px">
 
 ## Новый(New), Сохранить(Save), Отладка(Debug).
 
