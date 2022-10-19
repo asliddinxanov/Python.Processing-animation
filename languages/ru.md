@@ -50,7 +50,7 @@ def draw():
 
 Кроме того, при отладке вы можете увидеть сообщение об ошибке и строку, в которой происходит ошибка, перейдя на вкладку "Ошибки(Errors)" ниже.
 
-<img src="image-processing/error.png" width="550px">
+<img src="https://github.com/asliddinxanov/Python.Processing-animation/blob/main/image-processing/error.png" width="550px">
 
 ## Линия(Line).
 
@@ -61,7 +61,7 @@ def setup():
   size(240,120)
   line(30,40,200,80)
 ```
-<img src="image-processing/run-2.png" width="400px">
+<img src="https://github.com/asliddinxanov/Python.Processing-animation/blob/main/image-processing/run-2.png" width="400px">
 
 ## Порядок исполнения.
 Processing executes instructions in order, starting with the first instruction. Therefore, when drawing overlapping figures, the order in which the programs are executed is important. For example, what happens to these two programs? The first instruction is executed first.
@@ -72,7 +72,7 @@ def setup():
   ellipse(0,0,90,90)
   rect(20,30,60,50)
 ```
-<img src="image-processing/run-3.png" width="400px">
+<img src="https://github.com/asliddinxanov/Python.Processing-animation/blob/main/image-processing/run-3.png" width="400px">
 
 ```python=
 def setup():
@@ -80,7 +80,7 @@ def setup():
   rect(20,30,60,50)
   ellipse(0,0,90,90)
 ```
-<img src="image-processing/run-4.png" width="400px">
+<img src="https://github.com/asliddinxanov/Python.Processing-animation/blob/main/image-processing/run-4.png" width="400px">
 
 ## Цвет(Color)
 
@@ -113,13 +113,13 @@ def setup():
   fill(100,20,80)
   rect(350,50,50,50)
 ```
-<img src="image-processing/run-5.png" width="400px">
+<img src="https://github.com/asliddinxanov/Python.Processing-animation/blob/main/image-processing/run-5.png" width="400px">
 
 ## Проверка значений цвета.
 
 Когда вы хотите узнать значение цвета, который хотите задать, удобно использовать селектор цветов. Нажмите на понравившийся цвет, чтобы увидеть значение RGB, соответствующее этому цвету.
 
-<img src="image-processing/selectColor.png" width="400px">
+<img src="https://github.com/asliddinxanov/Python.Processing-animation/blob/main/image-processing/selectColor.png" width="400px">
 
 ## Транспарентность
 
@@ -137,7 +137,7 @@ def setup():
   fill (0, 0, 255, 160)
   ellipse (210, 130, 90, 90)
   ```
- <img src="image-processing/RGB.png" width="400px">
+ <img src="https://github.com/asliddinxanov/Python.Processing-animation/blob/main/image-processing/RGB.png" width="400px">
   
   ## Переменные.
 
